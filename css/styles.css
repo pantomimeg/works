@@ -324,7 +324,7 @@ p{
 	.cd-stretchy-nav {
 		display: block;
 	}
-/*	.cd-stretchy-nav .stretchy-nav-bg {
+	.cd-stretchy-nav .stretchy-nav-bg {
 		background-color: #4D2F2D; 
 	}
 	.cd-nav-trigger{
@@ -346,7 +346,7 @@ p{
 		width: 16px;
 		right: 17px;
 		top: 45%;
-	}*/
+	}
 	/* -- Hello -- */
 	#section0{
 		background-image: url(../images/main/main-17.png);
