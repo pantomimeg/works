@@ -75,7 +75,7 @@ p{
 #menu li:hover a img{
 	opacity: 0.6;
 }
-#menu li.active a img{
+#menu li.active a .imgdis{
 	opacity: 0;
 }
 #menu li.active a .hello{
