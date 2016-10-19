@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-tw">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
 	<title>EG</title>	
 	<!--行動優先-->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -61,6 +62,7 @@
 <body>
 	<header>
 		<!-- 滑動選單 str -->
+		<!-- >768 -->
 		<div id="roll">
 			<li><img src="images/menu/menuimg-26.svg"></li>
 			<li title="Hello" id="Hello-btn" class="a70"><img src="images/menu/menuimg-27.svg"></li>
@@ -71,6 +73,24 @@
 			<li title="DailyUI" id="DailyUI-btn" class="a70"><img src="images/menu/menuimg-32.svg"></li>
 			<li><img src="images/menu/menuimg-33.svg"></li>
 		</div>
+		<!-- <768 -->
+		<a href="#" class="burger-box">
+			<div class="burger">
+				Menu
+			</div>
+		</a>
+		<nav class="sliding-nav">
+			<ul>
+				<li><img src="images/img/main_11.png" width="220px"></li>
+				<li><a href="APPWebDesign.html"><img src="images/img/main_12.png" width="220px"></a></li>
+				<li><a href="Illustration.html"><img src="images/img/main_13.png" width="220px"></a></li>
+				<li><a href="Illustration.html"><img src="images/img/main_14.png" width="220px"></a></li>
+				<li><a href="DailyUI.html"><img src="images/img/main_15.png" width="220px"></a></li>
+				<li><a href="index.html"><img src="images/img/main_16.png" width="220px"></a></li>
+			</ul>
+		</nav>
+
+		<div class="fade-screen"></div>
 	</header>
 
 	<div id="main">
@@ -93,21 +113,21 @@
 					<h3>潘宜君</h3>
 					<p>PAN,YI-JYUN (EG)</p>
 					<p>&nbsp;</p>
-					<h4>1992年出生於高雄<br/>畢業於國立雲林科技大學 創意生活設計系</h4>
+					<h4>1992年出生於高雄<br/>2014年畢業於國立雲林科技大學 創意生活設計系</h4>
 					<p>Born in year 1992, Kaohsiung, Taiwan<br/>Dept. of Creative Design at YunTech. Sep 2010 to Jun 2014.</p>
 					<p>&nbsp;</p>
-					<a href="#modal12345" class="btn btn-default" role="button">Contact me</a>
+					<a href="#modal1" class="btn btn-default" role="button">Contact me</a>
 				</div>
-				<div class="remodal" data-remodal-id="modal12345" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+				<div class="remodal" data-remodal-id="modal1" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
 					<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
 					<div>
 						<h2>Contact me</h2>
-							<form action="mailto:paneg.jpeg@gmail.com" method="post" enctype="text/plain" accept-charset="UTF-8" id="web-form">
-                            <input type="text" placeholder=" NAME " required="required" name="name" class="font-lucida-r placeholder-c">
-                            <input type="email" placeholder=" EMAIL " required="required" name="email" class="font-lucida-r placeholder-c">
-                            <textarea name="msg" placeholder=" MESSAGE " cols="30" rows="10" required="required" class="font-lucida-r placeholder-c"></textarea>
-                            <input class="btn btn-default font-lucida-r" type="submit" value="Send Message">
-                    </form>
+						<FORM method="post" ACTION="mailto:paneg.jpeg@gmail.com?SUBJECT=我要留言" enctype="text/plain">
+							<input type=text name=NAME placeholder=NAME>
+							<input type=text name=EMAIL placeholder=EMAIL>
+							<textarea cols=60 rows=10 name=MESSAGE placeholder=MESSAGE></textarea>
+							<P><INPUT TYPE=submit VALUE="Send Message" class="btn btn-default"></p>
+							</form>
 						</p>
 					</div>
 				</div>
@@ -120,18 +140,28 @@
 		<!-- Works -->
 
 		<div id="works">
-			<div id="APPWebDesign" class="col-md-6 col-sm-6 col-xs-12"><img src="images/img/main_38.png" width="100%"></div>
-			<div id="GraphicDesign" class="col-md-6 col-sm-6 col-xs-12"><img src="images/img/main_39.png" width="100%"></div>
-			<div id="Illustration" class="col-md-6 col-sm-6 col-xs-12"><img src="images/img/main_40.png" width="100%"></div>
-			<div id="DailyUI" class="col-md-6 col-sm-6 col-xs-12"><img src="images/img/main_41.png" width="100%"></div>
+			<div id="APPWebDesign" class="col-md-6 col-sm-6 col-xs-12"><a href="APPWebDesign.html"><img src="images/img/main_38.png" width="100%"></a></div>
+			<div id="GraphicDesign" class="col-md-6 col-sm-6 col-xs-12"><a href="GraphicDesign.html"><img src="images/img/main_39.png" width="100%"></a></div>
+			<div id="Illustration" class="col-md-6 col-sm-6 col-xs-12"><a href="Illustration.html"><img src="images/img/main_40.png" width="100%"></a></div>
+			<div id="DailyUI" class="col-md-6 col-sm-6 col-xs-12"><a href="DailyUI.html"><img src="images/img/main_41.png" width="100%"></a></div>
 		</div>
 	</div>
 	<footer>
 		<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
 	</footer>
 
-	<!-- window -->
+<!-- burger -->
+<script>
+$(function() {
+  $('.burger-box,.fade-screen,.sliding-nav-close').on('click touchstart', function(e) {
+    e.preventDefault();
+    $('.burger-box').toggleClass('is-open');
+    $('.sliding-nav,.fade-screen').toggleClass('is-visible');
+  });
+});
+</script>
 
+<!-- window -->
 	<script>
   // window.REMODAL_GLOBALS = {
   //   NAMESPACE: 'remodal',
@@ -192,5 +222,6 @@
   	modifier: 'with-red-theme'
   });
 </script>
+
 </body>
 </html>
