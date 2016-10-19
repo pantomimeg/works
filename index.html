@@ -3,238 +3,136 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>EG</title>	
+	<!--行動優先-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- 最新編譯和最佳化的 CSS -->
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+	<!-- jQuery q(Bo`otstrap 所有外掛均需要使用) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!-- 最新編譯和最佳化的 JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/modernizr.js"></script>
 
-<!-- 	<link rel="stylesheet" type="text/css" href="css/button/normalize.css" />
-	<link rel="stylesheet" type="text/css" href="css/button/vicons-font.css" />
-	<link rel="stylesheet" type="text/css" href="css/button/base.css" />
-	<link rel="stylesheet" type="text/css" href="css/button/buttons.css" />
--->	
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
 
-<!--行動優先-->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- 最新編譯和最佳化的 CSS -->
-<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
-<!-- jQuery (Bo`otstrap 所有外掛均需要使用) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<!-- 最新編譯和最佳化的 JavaScript -->
-<script src="js/bootstrap.min.js"></script>
-<script src="js/modernizr.js"></script>
+	<!-- 	<script src="js/jquery.min.js" language="javascript"></script> -->
+	<script language="javascript">
+		$(function(){
+			$('#Hello-btn').click(function(){
+				$('html,body').animate({scrollTop: '0px'}, 800);
+			}); 
+			$('#About-btn').click(function(){
+				$('html,body').animate({scrollTop:$('#About').offset().top}, 800);
+			});
+			$('#APPWebDesign-btn').click(function(){
+				$('html,body').animate({scrollTop:$('#APPWebDesign').offset().top}, 800);
+			});
+			$('#GraphicDesign-btn').click(function(){
+				$('html,body').animate({scrollTop:$('#GraphicDesign').offset().top}, 800);
+			});
+			$('#Illustration-btn').click(function(){
+				$('html,body').animate({scrollTop:$('#Illustration').offset().top}, 800);
+			});
+			$('#DailyUI-btn').click(function(){
+				$('html,body').animate({scrollTop:$('#DailyUI').offset().top}, 800);
+			});
+		});
+	</script>
 
-<link rel="stylesheet" type="text/css" href="css/fullPage/jquery.fullPage.css" />
-<link rel="stylesheet" type="text/css" href="css/fullPage/javascript.fullPage.css" />
-<link rel="stylesheet" type="text/css" href="css/menustyle.css">
-<link rel="stylesheet" type="text/css" href="css/window/remodal.css">
-<link rel="stylesheet" type="text/css" href="css/window/remodal-default-theme.css">
-<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	<!-- window -->
+	<link rel="stylesheet" href="css/window/remodal.css">
+	<link rel="stylesheet" href="css/window/remodal-default-theme.css">
+	<style>
+		.remodal-bg.with-red-theme.remodal-is-opening,
+		.remodal-bg.with-red-theme.remodal-is-opened {
+			filter: none;
+		}
 
-<style>
-	.remodal-bg.with-red-theme.remodal-is-opening,
-	.remodal-bg.with-red-theme.remodal-is-opened {
-		filter: none;
-	}
+		.remodal-overlay.with-red-theme {
+			background-color: #f44336;
+		}
 
-	.remodal-overlay.with-red-theme {
-		background-color: #f44336;
-	}
-
-	.remodal.with-red-theme {
-		background: #fff;
-	}
-</style>
-
+		.remodal.with-red-theme {
+			background: #fff;
+		}
+	</style>
 </head>
+
 <body>
 	<header>
-		<!-- <768 -->
-		<nav class="cd-stretchy-nav">
-			<a class="cd-nav-trigger" href="#0">
-			
-			menu
-			<span aria-hidden="true"></span>
-			</a>
-
-			<ul>
-				<li><a href="#APPDesign"><span>APPDesign</span></a></li>
-				<li><a href="#GraphicDesign"><span>GraphicDesign</span></a></li>
-				<li><a href="#Illustration"><span>Illustration</span></a></li>
-				<li><a href="#Photography"><span>Photography</span></a></li>
-				<li><a href="#About"><span>About</span></a></li>
-			</ul>
-			<span aria-hidden="true" class="stretchy-nav-bg"></span>
-		</nav>
-		<!-- >768 -->
-		<ul id="menu">
+		<!-- 滑動選單 str -->
+		<div id="roll">
 			<li><img src="images/menu/menuimg-26.svg"></li>
-			<li data-menuanchor="Hello"><a href="#Hello"><img class="hello" src="images/menu/menuimg-27.svg"></a></li>
-			<li data-menuanchor="Catalog"><a href="#Catalog"><img class="imgdis" src="images/menu/menuimg-28.svg"></a></li>
-			<li data-menuanchor="APPDesign"><a href="#APPDesign"><img class="imgdis" src="images/menu/menuimg-29.svg"></a></li>
-			<li data-menuanchor="GraphicDesign"><a href="#GraphicDesign"><img class="imgdis" src="images/menu/menuimg-30.svg"></a></li>
-			<li data-menuanchor="Illustration"><a href="#Illustration"><img class="imgdis" src="images/menu/menuimg-31.svg"></a></li>
-			<li data-menuanchor="Photography"><a href="#Photography"><img class="imgdis" rc="images/menu/menuimg-32.svg"></a></li>
-			<li data-menuanchor="About"><a href="#About"><img class="imgdis" src="images/menu/menuimg-33.svg"></a></li>
-		</ul>
+			<li title="Hello" id="Hello-btn" class="a70"><img src="images/menu/menuimg-27.svg"></li>
+			<li title="About" id="About-btn" class="a70"><img src="images/menu/menuimg-28.svg"></li>
+			<li title="APPWebDesign" id="APPWebDesign-btn" class="a70"><img src="images/menu/menuimg-29.svg"></li>
+			<li title="GraphicDesign" id="GraphicDesign-btn" class="a70"><img src="images/menu/menuimg-30.svg"></li>
+			<li title="Illustration" id="Illustration-btn" class="a70"><img src="images/menu/menuimg-31.svg"></li>
+			<li title="DailyUI" id="DailyUI-btn" class="a70"><img src="images/menu/menuimg-32.svg"></li>
+			<li><img src="images/menu/menuimg-33.svg"></li>
+		</div>
 	</header>
 
-	<div id="fullpage">
+	<div id="main">
 		<!-- Hello -->
-		<div class="section" id="section0" data-anchor="Hello">
-			<div class="content-page">
-				<img src="images/EGLOGO-01.svg">
+		
+		<div id="Hello">
+			<div class="content">
+				<img class="img80100" src="images/EGLOGO-01.svg">
 			</div>
 		</div>
-		<!-- Catalog -->
-		<div class="section" id="section1" data-anchor="Catalog">
-			<div class="content-page">
-				<h1>jklbjkvfjxdthm</h1>
-			</div>
-		</div>
-		<!-- APP Design -->
-		<div class="section" id="section2" data-anchor="APPDesign">
-			<div class="slide" id="slide1">
-				<div class="content-page">
-					<h1>APPDesign</h1>
-					<p>5 Kb gzipped!!</p>
-					<a href="#APPDesign/1">Improve the loading time of your site!</a>
+		
+
+		<!-- About -->
+		<div id="About">
+			<div id="abouteg">
+				<div class="abouteg1 col-md-6 col-sm-12 col-xs-12">
+					<img class="img60" src="images/img/main_25.png" >
 				</div>
-			</div>
-			<div class="slide" id="slide2">
-				<div class="appworks remodal-bg">
-					<div class="appworks col-xs-4 col-sm-4 col-md-3"><a href="#modal1"><img src="images/works/APP/cover/001.png"></a></div>
-					<div class="appworks col-xs-4 col-sm-4 col-md-3"><a href="#modal1"><img src="images/works/APP/cover/008.png"></a></div>
-					<div class="appworks col-xs-4 col-sm-4 col-md-3"><a href="#modal1"><img src="images/works/APP/cover/004.png"></a></div>
-					<div class="appworks col-xs-4 col-sm-4 col-md-3"><a href="#modal1"><img src="images/works/APP/cover/005.png"></a></div>
-					<div class="appworks col-xs-4 col-sm-4 col-md-3"><a href="#modal1"><img src="images/works/APP/cover/007.png"></a></div>
-					<div class="appworks col-xs-4 col-sm-4 col-md-3"><a href="#modal1"><img src="images/works/APP/cover/009.png"></a></div>
-					<div class="appworks col-xs-4 col-sm-4 col-md-3"><a href="#modal1"><img src="images/works/APP/cover/015.png"></a></div>
-					<div class="appworks col-xs-4 col-sm-4 col-md-3"><a href="#modal1"><img src="images/works/APP/cover/011.png"></a></div>
-					<div class="appworks col-xs-4 col-sm-4 col-md-3"><a href="#modal1"><img src="images/works/APP/cover/002.png"></a></div>
-					<div class="appworks col-xs-4 col-sm-4 col-md-3"><a href="#modal1"><img src="images/works/APP/cover/006.png"></a></div>
-					<div class="appworks col-xs-4 col-sm-4 col-md-3"><a href="#modal1"><img src="images/works/APP/cover/012.png"></a></div>
-					<div class="appworks col-xs-4 col-sm-4 col-md-3"><a href="#modal1"><img src="images/works/APP/cover/014.png"></a></div>
-					<div class="appworks col-xs-4 col-sm-4 col-md-3"><a href="#modal1"><img src="images/works/APP/cover/013.png"></a></div>
-					<div class="appworks col-xs-4 col-sm-4 col-md-3"><a href="#modal1"><img src="images/works/APP/cover/016.png"></a></div>
-					<div class="appworks col-xs-4 col-sm-4 col-md-3"><a href="#modal1"><img src="images/works/APP/cover/017.png"></a></div>
-					<div class="appworks col-xs-4 col-sm-4 col-md-3"><a href="#modal1"><img src="images/works/APP/cover/018.png"></a></div>
-					<div class="appworks col-xs-4 col-sm-4 col-md-3"><a href="#modal1"><img src="images/works/APP/cover/003.png"></a></div>
-					<div class="appworks col-xs-4 col-sm-4 col-md-3"><a href="#modal1"><img src="images/works/APP/cover/010.png"></a></div>
+				<div class="abouteg2 col-md-6 col-sm-12 col-xs-12">
+					<h3>潘宜君</h3>
+					<p>PAN,YI-JYUN (EG)</p>
+					<p>&nbsp;</p>
+					<h4>1992年出生於高雄<br/>畢業於國立雲林科技大學 創意生活設計系</h4>
+					<p>Born in year 1992, Kaohsiung, Taiwan<br/>Dept. of Creative Design at YunTech. Sep 2010 to Jun 2014.</p>
+					<p>&nbsp;</p>
+					<a href="#modal12345" class="btn btn-default" role="button">Contact me</a>
 				</div>
-			</div>
-
-			<div class="remodal" data-remodal-id="modal1" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
-				<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-				<div>
-					<h2 id="modal1Title">Remodal</h2>
-					<p id="modal1Desc">
-						Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin
-						with declarative state notation and hash tracking.
-					</p>
-				</div>
-			</div>
-
-<!-- 		<div class="content-page">
-			<div class="phone">
-				<div class="phonescreen">
-					<div class="slider_container">
-						<div><img src="images/product-01.png" alt="" /></div>
-						<div><img src="images/product-02.png" alt="" /></div>
-						<div><img src="images/product-03.png" alt="" /></div>
-						<div><img src="images/product-01.png" alt="" /></div>
-						<div><img src="images/product-02.png" alt="" /></div>
-					</div>
-				</div>
-			</div>
-		</div> -->
-
-	</div>
-
-
-	<!-- GraphicDesign -->
-	<div class="section" id="section3" data-anchor="GraphicDesign">
-		<div class="slide" id="slide1">
-			<div class="content-page">
-
-				<div class="remodal-bg">
-					<a href="#modal123">open</a><br>
-				</div>
-
-				<div class="remodal" data-remodal-id="modal123" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+				<div class="remodal" data-remodal-id="modal12345" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
 					<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
 					<div>
-						<h2 id="modal1Title">Remodal</h2>
-						<p id="modal1Desc">
-							Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin
-							with declarative state notation and hash tracking.
+						<h2>Contact me</h2>
+							<form action="mailto:paneg.jpeg@gmail.com" method="post" enctype="text/plain" accept-charset="UTF-8" id="web-form">
+                            <input type="text" placeholder=" NAME " required="required" name="name" class="font-lucida-r placeholder-c">
+                            <input type="email" placeholder=" EMAIL " required="required" name="email" class="font-lucida-r placeholder-c">
+                            <textarea name="msg" placeholder=" MESSAGE " cols="30" rows="10" required="required" class="font-lucida-r placeholder-c"></textarea>
+                            <input class="btn btn-default font-lucida-r" type="submit" value="Send Message">
+                    </form>
 						</p>
 					</div>
 				</div>
-
-
 			</div>
 		</div>
-		<div class="slide" id="slide2">
-			<div class="photo1 col-xs-4 col-sm-4 col-md-2">11111</div>
-			<div class="photo2 col-xs-4 col-sm-4 col-md-2">11111</div>
-			<div class="photo3 col-xs-4 col-sm-4 col-md-2">11111</div>
-			<div class="photo2 col-xs-4 col-sm-4 col-md-2">11111</div>
-			<div class="photo3 col-xs-4 col-sm-4 col-md-2">11111</div>
-			<div class="photo1 col-xs-4 col-sm-4 col-md-2">11111</div>
-			<div class="photo3 col-xs-4 col-sm-4 col-md-2">11111</div>
-			<div class="photo1 col-xs-4 col-sm-4 col-md-2">11111</div>
-			<div class="photo2 col-xs-4 col-sm-4 col-md-2">11111</div>
-			<div class="photo1 col-xs-4 col-sm-4 col-md-2">11111</div>
-			<div class="photo2 col-xs-4 col-sm-4 col-md-2">11111</div>
-			<div class="photo3 col-xs-4 col-sm-4 col-md-2">11111</div>
-		</div>
-		<div class="slide" id="slide3">
-			<div class="content-page">
-				<img class="img100" src="images/img01.jpg">
-			</div>
-		</div>
-		<div class="slide" id="slide4">
-			<div class="content-page">
-				<h1>More slides!</h1>
-			</div>
+
+
+
+
+		<!-- Works -->
+
+		<div id="works">
+			<div id="APPWebDesign" class="col-md-6 col-sm-6 col-xs-12"><img src="images/img/main_38.png" width="100%"></div>
+			<div id="GraphicDesign" class="col-md-6 col-sm-6 col-xs-12"><img src="images/img/main_39.png" width="100%"></div>
+			<div id="Illustration" class="col-md-6 col-sm-6 col-xs-12"><img src="images/img/main_40.png" width="100%"></div>
+			<div id="DailyUI" class="col-md-6 col-sm-6 col-xs-12"><img src="images/img/main_41.png" width="100%"></div>
 		</div>
 	</div>
+	<footer>
+		<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
+	</footer>
 
-	<!-- Illustration -->
-	<div class="section" id="section4" data-anchor="Illustration">
-		<div class="content-page">
-			<div class="content-page">
-				<h1>fullPage.js</h1>
-				<p>Javascript only version</p>
-			</div>
-		</div>
-	</div>
+	<!-- window -->
 
-	<!-- Photography -->
-	<div class="section" id="section5" data-anchor="Photography">
-		<div class="content-page">
-			<h1>fullPage.js</h1>
-			<p>Javascript only version</p>
-		</div>
-	</div>
-	<!-- About -->
-	<div class="section" id="section6" data-anchor="About">
-		<div class="content-page">
-			<button class="button button--shikoba button--text-medium button--round-l button--inverted"><i class="button__icon icon icon-microphone"></i><span>Start Recording</span></button>
-		</div>
-	</div>
-</div>
-
-<!-- javascript -->
-<script src="js/jquery-2.1.4.js"></script>
-<script src="js/main.js"></script>
-<script type="text/javascript" src="js/javascript.fullPage.js"></script>
-<script type="text/javascript">
-	fullpage.initialize('#fullpage', {
-		aanchors: ['Hello', 'Catalog', 'APPDesign', 'GraphicDesign','Illustration', 'Photography','About'],
-		menu: '#menu',
-	});
-</script>
-
-<!-- window -->
-<script>
+	<script>
   // window.REMODAL_GLOBALS = {
   //   NAMESPACE: 'remodal',
   //   DEFAULTS: {
@@ -248,7 +146,7 @@
   // };
 </script>
 
-<script>window.jQuery || document.write('<script src="js/window/jquery.min.js"><\/script>')</script>
+<script>window.jQuery || document.write('<script src="js/window/jquery/dist/jquery.min.js"><\/script>')</script>
 <script src="js/window/remodal.js"></script>
 
 <!-- Events -->
@@ -294,7 +192,5 @@
   	modifier: 'with-red-theme'
   });
 </script>
-
-
 </body>
 </html>

@@ -1,391 +1,191 @@
-/* Reset CSS -------------------------------------- */
-
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
-form,fieldset,input,textarea,p,blockquote,th,td {
-	padding: 0;
-	margin: 0;
-}
-a{
-	text-decoration:none;
-}
-table {
-	border-spacing: 0;
-}
-fieldset,img {
-	border: 0;
-}
-address,caption,cite,code,dfn,em,strong,th,var {
-	font-weight: normal;
-	font-style: normal;
-}
-strong{
-	font-weight: bold;
-}
-ol,ul {
-	list-style: none;
-	margin:0;
-	padding:0;
-}
-caption,th {
-	text-align: left;
-
-}
-h1,h2,h3,h4,h5,h6 {
-	font-weight: normal;
-	font-size: 100%;
-	margin:0;
-	padding:0;
-	color:#444;
-}
-q:before,q:after {
-	content:'';
-}
-abbr,acronym { border: 0;
-}
-
-
 /* CSS -------------------------------------------- */
+
 body{
-	font-family: arial,helvetica;
-	color: #fff;
+	background:#C06926;
+	font-family: "Microsoft JhengHei", sans-serif;
+	font-size: 14px;
 }
-h1{
-	font-size: 6em;
+
+#main{
+	width:100%;
+	margin:0 auto;
+	background:#fff;
 }
-p{
-	font-size: 2em;
-}
-.content-page{
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
 	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	text-align: center;
+	min-height: 1px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+footer{
+	width: 100%;
+	background: url(../images/img/main_26.png) 50% 0 fixed;
+	background-size: contain;
 	overflow: hidden;
 }
-
-.img100{
-	width: 100%;
+footer p{
+	color: #f4E8D1;
+	text-align: center;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 30px 0;
 }
 
-#menu li a{
-	text-decoration:none;
-	color: transparent;
-	letter-spacing: 0.06em;
-}
-#menu li:hover a img{
-	opacity: 0.6;
-}
-#menu li.active a .imgdis{
-	opacity: 0;
-}
-#menu li.active a .hello{
-	opacity: 1;
-}
-#menu{
+
+/* -- MENU -- */
+#roll {
+	display:block;
 	position:fixed;
-	top:0;
-	left:1.5%;
-	height: 35px;
-	width: 80px;
-	z-index: 70;
-	padding: 0;
-	margin:0;
+	left:2%;
+	list-style-type:none;
+	z-index: 1;
 }
 
-.screendis{
-	display: none;
-}
-.screenappear{
-	display: block;
-}
-
-/* -- PhoneScreen -- */
-
-.cd-stretchy-nav{
-	display: none;
-}
-
-/* -- PhoneScreen -- */
-.slider_container div {
-	position: absolute;
-	width: 100%;
-	opacity: 0;
-	filter: alpha(opacity=0);
-
-	-webkit-animation: round 10s linear infinite;
-	animation: round 10s linear infinite;
-}
-
-@-webkit-keyframes round {
-	10% {
-		opacity: 1;
-		filter: alpha(opacity=100);
-		/* 0 - 1秒 淡入*/
-	}
-	20% {
-		opacity: 1;
-		filter: alpha(opacity=100);
-		/* 1- 2秒靜止*/
-	}
-	29% {
-		opacity: 0;
-		filter: alpha(opacity=0);
-		/* 2-3秒淡出*/
-	}
-}
-@keyframes round {
-	10% {
-		opacity: 1;
-		filter: alpha(opacity=100);
-		/* 0 - 1秒 淡入*/
-	}
-	20% {
-		opacity: 1;
-		filter: alpha(opacity=100);
-		/* 1- 2秒靜止*/
-	}
-	29% {
-		opacity: 0;
-		filter: alpha(opacity=0);
-		/* 2-3秒淡出*/
-	}
-}
-.slider_container div:nth-child(5) {
-	-webkit-animation-delay: 0s;
-	animation-delay: 0s;
-}
-
-.slider_container div:nth-child(4) {
-	-webkit-animation-delay: 2s;
-	animation-delay: 2s;
-}
-
-.slider_container div:nth-child(3) {
-	-webkit-animation-delay: 4s;
-	animation-delay: 4s;
-}
-
-.slider_container div:nth-child(2) {
-	-webkit-animation-delay: 6s;
-	animation-delay: 6s;
-}
-
-.slider_container div:nth-child(1) {
-	-webkit-animation-delay: 8s;
-	animation-delay: 8s;
-}
-.slider_container:hover div {
-	-webkit-animation-play-state: paused;
-	animation-play-state: paused;
+.a70:hover{
+	opacity: 0.7;
 }
 
 /* -- Hello -- */
-#section0{
-	background-image: url(../images/main/main-10.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-/* -- Catalog -- */
-#section1{
-	background-image: url(../images/main/main-11.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-/* -- APP Design -- */
-#section2{
-	background-image: url(../images/main/main-12.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-.appworks{
-	height: 50%;
-	padding: 0 0;
-}
-
-#slide2 img{
-	height: 100%;
-	width: 100%;
-}
-
-.phone{
-	position: relative;
-	top: 10%;
-	left:10%;
-	width: 320px;
-	height: 480px;
-	background-color: #000; 
-}
-.phonescreen{`
-	position: relative;
-	top:20px;
-	left:20px;
-	width: 280px;
-	height:380px;
-	background-color: #999; 
+#Hello{
+	height: 800px;
+	background: url(../images/img/main_26.png) 50% 0 fixed;
+	background-size: contain;
+	background-color: #C06926;
 	overflow: hidden;
 }
-
-/* -- Graphic Design -- */
-#section3{
-	background-image: url(../images/main/main-13.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-/* -- Illustration -- */
-#section4{
-	background-image: url(../images/main/main-14.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	z-index:2;		
-}
-
-/* -- Photography -- */
-#section5{
-	background-image: url(../images/main/main-15.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	z-index:1;
-}
-.photo1{
-	background-color:#ddd;
-	height: 33.33%;
-}
-.photo2{
-	background-color:#333;
-	height: 33.33%;
-}
-.photo3{
-	background-color:#999;
-	height: 33.33%;
+#Hello .content{
+	text-align: center;
+	margin-top:7.5%; 
 }
 
 /* -- About -- */
-#section6{
-	background-image: url(../images/main/main-16.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	z-index:2;
+#About{
+	height: 700px;
+	background: url(../images/img/main_27.png)50% 0 no-repeat fixed;
+	background-size: 100%;
+	background-color: #F6D792;
+	overflow: hidden;
+}
+#abouteg{
+	position: relative;
+	margin: 100px auto;
+}
+.abouteg1{
+	text-align: center;
+}
+.abouteg2{
+	padding:120px 0 0 20px;
+}
+.abouteg2 h3{
+	font-size: 22px;
+	letter-spacing: 0.2em;
+	color: #4A2E2B;
+}
+.abouteg2 h4{
+	font-size: 16px;
+	letter-spacing: 0.05em;
+	line-height: 1.5em;
+}
+.abouteg2 p{
+	font-size: 13px;
+	color: #E99f3a;
+	line-height: 1.5em;
 }
 
-/* -- java amend -- */
-.fp-controlArrow.fp-prev {
-	border-width: 18.5px;
-	opacity:0.4;
+.btn-default {
+	color: #EEB81A;
+	background-color: transparent;
+	border-color: #EEB81A;
 }
-.fp-controlArrow.fp-next {
-	border-width: 18.5px;
-	opacity:0.4;
+.btn-default:hover {
+	color: #F4E8D1;
+	background-color: #E99f3a;
+	border-color: #E99f3a;
+}
+input, button, textarea{
+	width: 100%;
+	padding: 10px;
+	color: #4A2E2B;
+}
+input{
+	height: 40px;
+	font-size: 16px;
 }
 
-.fp-controlArrow.fp-prev:hover {
-	opacity:0.6;  
-}
-.fp-controlArrow.fp-next:hover {
 
-	opacity:0.6; 
+/* -- Works -- */
+#works{
+	width: 100%;
 }
-
+#APPWebDesign{
+	overflow: hidden;
+}
+#GraphicDesign{
+	overflow: hidden;
+}
+#Illustration{
+	overflow: hidden;
+}
+#DailyUI{
+	overflow: hidden;
+}
 
 /* --------------------- <768 --------------------- */
 
 @media (max-width: 768px){
-
-	.appdis{
-		display: none;
+	.img100{
+		width: 100%;
 	}
-	.appappear{
-		display: block;
-	}
-
-	.appworks{
-		background-color:#ddd;
-		height: 41%;
-	}
-
-	.photo1{
-		background-color:#ffbb00;
-		height: 25%;
-	}
-	.photo2{
-		background-color:#bbee33;
-		height: 25%;
-	}
-	.photo3{
-		background-color:#11bbee;
-		height: 25%;
-	}
-	#menu{
-		display: none;
+	.img80{
+		width: 80%;
 	}	
-	.cd-stretchy-nav {
-		display: block;
+	.img60{
+		width: 60%;
+	}	
+	.img80100{
+		width: 80%;
 	}
-	.cd-stretchy-nav .stretchy-nav-bg {
-		background-color: #4D2F2D; 
+	#Hello{
+		height: 1200px;
 	}
-	.cd-nav-trigger{
-		height: 50px;
-		width: 50px;
+	#Hello .content{
+		margin-top:25%; 
 	}
-	.cd-stretchy-nav ul{
-		padding: 40px 0 0;
+	#About{
+		height: 950px;
 	}
-	.cd-stretchy-nav ul a{
-		height: 40px;
-		line-height: 35px;
-		letter-spacing: 0.1em;
-		padding: 0 calc(0.8em + 50px) 0 0.8em;
+	.abouteg2{
+		text-align: center;
+		padding:20px 0;
 	}
-	.cd-stretchy-nav ul a::after {
-		/* navigation item icons */
-		height: 16px;
-		width: 16px;
-		right: 17px;
-		top: 45%;
-	}
-	/* -- Hello -- */
-	#section0{
-		background-image: url(../images/main/main-17.png);
-	}
-	/* -- Catalog -- */
-	#section1{
-		background-image: url(../images/main/main-18.png);
-	}
-
-	/* -- APP Design -- */
-	#section2{
-		background-image: url(../images/main/main-19.png);
-	}
-
-	/* -- Graphic Design -- */
-	#section3{
-		background-image: url(../images/main/main-20.png);
-	}
-
-	/* -- Illustration -- */
-	#section4{
-		background-image: url(../images/main/main-21.png);
-		z-index:2;		
-	}
-
-	/* -- Photography -- */
-	#section5{
-		background-image: url(../images/main/main-22.png);
-		z-index:1;
-	}
-
-	/* -- About -- */
-	#section6{
-		background-image: url(../images/main/main-23.png);
-		z-index:2;
-	}
-
-
 }
+
+/* --------------------- <478 --------------------- */
+
+@media (max-width: 478px){
+	.img80100{
+		width: 100%;
+	}
+	#Hello{
+		background-image: url(../images/img/main_1.png);
+		height: 800px;
+	}
+	#Hello .content{
+		margin-top:35%; 
+	}
+	#About{
+		background-image: url(../images/img/main_2.png);
+		height: 750px;
+	}
+	.abouteg2{
+		padding:20px 30px;
+	}
+	footer{
+		clear: both;
+	}
+}
+
 
 
 

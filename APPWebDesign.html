@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>EG</title>	
+	<!--行動優先-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- 最新編譯和最佳化的 CSS -->
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+	<!-- jQuery (Bo`otstrap 所有外掛均需要使用) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!-- 最新編譯和最佳化的 JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/modernizr.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+	<script src="js/jquery.min.js" language="javascript"></script>
+	<script language="javascript">
+		$(function(){
+			$('#Hello-btn').click(function(){
+				$('html,body').animate({scrollTop: '0px'}, 800);
+			}); 
+
+			$('#About-btn').click(function(){
+				$('html,body').animate({scrollTop:$('#About').offset().top}, 800);
+			});
+
+			$('#APPDesign-btn').click(function(){
+				$('html,body').animate({scrollTop:$('#APPDesign').offset().top}, 800);
+			});
+
+			$('#GraphicDesign-btn').click(function(){
+				$('html,body').animate({scrollTop:$('#GraphicDesign').offset().top}, 800);
+			});
+
+			$('#Illustration-btn').click(function(){
+				$('html,body').animate({scrollTop:$('#Illustration').offset().top}, 800);
+			});
+
+			$('#Photography-btn').click(function(){
+				$('html,body').animate({scrollTop:$('#Photography').offset().top}, 800);
+			});
+
+			$('#DailyUI-btn').click(function(){
+				$('html,body').animate({scrollTop:$('#DailyUI').offset().top}, 800);
+			});
+		});
+	</script>
+
+</head>
+
+<body>
+	<!-- 滑動選單 str -->
+	<div id="roll">
+		<li title="1" id="Hello-btn"><img src="images/menu/menuimg-27.svg"></li>
+		<li title="2" id="About-btn"><img src="images/menu/menuimg-28.svg"></li>
+		<li title="3" id="APPDesign-btn"><img src="images/menu/menuimg-29.svg"></li>
+		<li title="4" id="GraphicDesign-btn"><img src="images/menu/menuimg-30.svg"></li>
+		<li title="5" id="Illustration-btn"><img src="images/menu/menuimg-31.svg"></li>
+		<li title="6" id="Photography-btn"><img src="images/menu/menuimg-32.svg"></li>
+		<li title="7" id="DailyUI-btn"><img src="images/menu/menuimg-33.svg"></li>	
+	</div>
+	<!-- 滑動選單 end -->
+
+	<!-- 內容版塊 -->
+	<div id="main">
+		<!-- Hello -->
+		<div id="Hello">
+			<div class="content">
+				<img class="img100" src="images/EGLOGO-01.svg">
+			</div>
+		</div>
+
+		<!-- About -->
+		<div id="About">
+			
+
+
+
+
+		</div>
+		<!-- APP Design -->
+		<div id="APPDesign">留言</div>
+		<!-- GraphicDesign -->
+		<div id="GraphicDesign">版尾</div>
+		<!-- Illustration -->
+		<div id="Illustration">內容</div>
+		<!-- Photography -->
+		<div id="Photography">留言</div>
+		<!-- DailyUI -->
+		<div id="DailyUI">版尾</div>
+	</div>
+
+</body>
+</html>
