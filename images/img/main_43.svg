@@ -69,10 +69,10 @@
 				<polygon fill="#F5A200" points="178.625,34.983 183.264,34.811 183.254,42.118 178.625,42.507 				"/>
 				<g>
 					<defs>
-						<polygon id="SVGID_81_" points="178.625,34.983 183.264,34.811 183.254,42.118 178.625,42.507 						"/>
+						<polygon id="SVGID_49_" points="178.625,34.983 183.264,34.811 183.254,42.118 178.625,42.507 						"/>
 					</defs>
 					<clipPath id="SVGID_2_">
-						<use xlink:href="#SVGID_81_"  overflow="visible"/>
+						<use xlink:href="#SVGID_49_"  overflow="visible"/>
 					</clipPath>
 					<g clip-path="url(#SVGID_2_)">
 						<path fill="#4A2E2C" d="M180.834,39.159c-0.012-0.103,0.063-0.202,0.167-0.218c0.102-0.018,0.197,0.052,0.208,0.154
@@ -115,10 +115,10 @@
 				<polygon fill="#EE7800" points="179.001,35.35 178.625,34.983 178.625,35.334 				"/>
 				<g>
 					<defs>
-						<polygon id="SVGID_83_" points="174.482,35.183 179.001,35.35 178.991,43.023 174.482,43.083 						"/>
+						<polygon id="SVGID_51_" points="174.482,35.183 179.001,35.35 178.991,43.023 174.482,43.083 						"/>
 					</defs>
 					<clipPath id="SVGID_4_">
-						<use xlink:href="#SVGID_83_"  overflow="visible"/>
+						<use xlink:href="#SVGID_51_"  overflow="visible"/>
 					</clipPath>
 					<g clip-path="url(#SVGID_4_)">
 						<path fill="#4A2E2C" d="M180.759,39.397c-0.012-0.103,0.063-0.202,0.167-0.218c0.103-0.017,0.198,0.052,0.209,0.156
@@ -158,25 +158,25 @@
 <g>
 	<g>
 		<defs>
-			<rect id="SVGID_241_" x="-4.375" y="-286.893" width="358.75" height="82"/>
+			<rect id="SVGID_209_" x="-4.375" y="-286.893" width="358.75" height="82"/>
 		</defs>
 		<clipPath id="SVGID_6_">
-			<use xlink:href="#SVGID_241_"  overflow="visible"/>
+			<use xlink:href="#SVGID_209_"  overflow="visible"/>
 		</clipPath>
 		<g clip-path="url(#SVGID_6_)">
 			<defs>
-				<rect id="SVGID_243_" x="-30.81" y="-308.887" width="433.536" height="149.028"/>
+				<rect id="SVGID_211_" x="-30.81" y="-308.887" width="433.536" height="149.028"/>
 			</defs>
 			<clipPath id="SVGID_8_">
-				<use xlink:href="#SVGID_243_"  overflow="visible"/>
+				<use xlink:href="#SVGID_211_"  overflow="visible"/>
 			</clipPath>
 			<g clip-path="url(#SVGID_8_)">
 				<g>
 					<defs>
-						<rect id="SVGID_245_" x="-106.025" y="-419.711" width="585.32" height="329.508"/>
+						<rect id="SVGID_213_" x="-106.025" y="-419.711" width="585.32" height="329.508"/>
 					</defs>
 					<clipPath id="SVGID_10_">
-						<use xlink:href="#SVGID_245_"  overflow="visible"/>
+						<use xlink:href="#SVGID_213_"  overflow="visible"/>
 					</clipPath>
 					<g clip-path="url(#SVGID_10_)">
 						<g>

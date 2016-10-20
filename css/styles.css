@@ -19,15 +19,17 @@ body{
 
 footer{
 	width: 100%;
-	background: url(../images/img/main_26.svg);
+	background: url(../images/img/main_44.svg);
+	background-position: bottom;
 	overflow: hidden;
+	box-shadow: 2px 0px 20px rgba(0,0,0, .25);
 }
 footer p{
 	color: #f4E8D1;
 	text-align: center;
 	font-size: 14px;
 	font-weight: normal;
-	margin: 25px 0 20px 0;
+	margin: 22px 0 17px 0;
 }
 .boxtitle{
 	font-size: 20px;
@@ -55,7 +57,7 @@ footer p{
 	z-index: 999;
 	position: fixed;
 	top: 17px;
-	left: 20px;
+	left: 19px;
 	display: none;
 	width: 18px;
 	height: 18px;
@@ -70,8 +72,8 @@ footer p{
 	top: 50%;
 	left: 0;
 	width: 24px;
-	height: 4px;
-	background: #ffbb00;
+	height: 3px;
+	background: #F4E8D1;
 	transition: background 0.3s, transform 0.3s, top 0.3s;
 }
 .burger:before {
@@ -79,8 +81,8 @@ footer p{
 	top: 50%;
 	left: 0;
 	width: 24px;
-	height: 4px;
-	background: #ffbb00;
+	height: 3px;
+	background: #F4E8D1;
 	transition: background 0.3s, transform 0.3s, top 0.3s;
 	top: -8px;
 	left: 0;
@@ -91,8 +93,8 @@ footer p{
 	top: 50%;
 	left: 0;
 	width: 24px;
-	height: 4px;
-	background: #ffbb00;
+	height: 3px;
+	background: #F4E8D1;
 	transition: background 0.3s, transform 0.3s, top 0.3s;
 	top: 8px;
 	left: 0;
@@ -186,7 +188,7 @@ footer p{
   	z-index: 997;
   }
   .fade-screen.is-visible {
-  	opacity: .85;
+  	opacity: .6;
   	visibility: visible;
   }
 
@@ -311,9 +313,23 @@ footer p{
   .img19080{
   	width: 190px;
   }
-  #head-works{
+  #headworks-ADbg{
   	background: url(../images/img/main_28.svg);
   	background-size: cover;
+  }
+  #headworks-GDbg{
+  	background: url(../images/img/main_29.svg);
+  	background-size: cover;
+  }
+  #headworks-AIbg{
+  	background: url(../images/img/main_30.svg);
+  	background-size: cover;
+  }
+  #headworks-DUbg{
+  	background: url(../images/img/main_31.svg);
+  	background-size: cover;
+  }
+  .headworks{
   	height: 100px;
   	width: 100%;
   	margin:0 auto;
@@ -367,6 +383,18 @@ footer p{
   	background:#208467;
   	height: 100%;
   }
+  #mainGD-bg{
+  	background:#D03C3C;
+  	height: 100%;
+  }
+  #mainAI-bg{
+  	background:#EBB024;
+  	height: 100%;
+  }
+  #mainDU-bg{
+  	background:#4A2E2B;
+  	height: 100%;
+  }
   .content{
   	padding:170px 3% 3% 3%;
   	width: 80%;
@@ -384,11 +412,11 @@ footer p{
   	margin: 30px auto 0px auto;
   	text-align: center;
   }
- #footermenu img{
+  #footermenu img{
   	width: 35px;
   }
- #footermenu a:hover{
-	opacity: .7;
+  #footermenu a:hover{
+  	opacity: .7;
   }
 
   /* --------------------- <768 --------------------- */
@@ -456,15 +484,34 @@ footer p{
   		padding:20px 30px;
   	}
   	footer{
+  		background-image: url(../images/img/main_1.svg);
+  		background-size: cover;
   		clear: both;
   	}
   	footer p{
   		font-size: 12px;
+  		margin: 18px 0 13px 0;
   	}
   	/* -- workpage -- */
 
-  	#head-works{
+  	#headworks-ADbg{
   		background: url(../images/img/main_3.svg) no-repeat;
+  		background-size: cover;
+  	}
+  	#headworks-GDbg{
+  		background: url(../images/img/main_4.svg) no-repeat;
+  		background-size: cover;
+  	}
+  	#headworks-AIbg{
+  		background: url(../images/img/main_5.svg) no-repeat;
+  		background-size: cover;
+  	}
+  	#headworks-DUbg{
+  		background: url(../images/img/main_6.svg) no-repeat;
+  		background-size: cover;
+  	}
+  	.headworks{
+  		margin-top: -1px;
   		height: 700px;
   		z-index: 8;
   		position: relative;
@@ -478,8 +525,23 @@ footer p{
   	#mark{
   		display: none;
   	}
+  	.navbar-inverse-ADbg{
+  		background: url(../images/img/main_7.svg);
+  		background-size: 100%;
+  	}
+  	.navbar-inverse-GDbg{
+  		background: url(../images/img/main_8.svg);
+  		background-size: 100%;
+  	}
+  	.navbar-inverse-AIbg{
+  		background: url(../images/img/main_9.svg);
+  		background-size: 100%;
+  	}
+  	.navbar-inverse-DUbg{
+  		background: url(../images/img/main_10.svg);
+  		background-size: 100%;
+  	}
   	.navbar-inverse {
-  		background-image: url(../images/img/main_7.svg);
   		border-color: transparent;
   		height: 55px;
   		z-index: 7;
@@ -487,6 +549,7 @@ footer p{
   		text-align: center;
   		margin-bottom: -55px;
   		top: -55px;
+  		border:none;
   	}
   	.followicon{
   		height: 45px;

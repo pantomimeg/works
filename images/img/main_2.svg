@@ -192,61 +192,10 @@
 		<g>
 			<g>
 				<defs>
-					<polygon id="SVGID_29_" points="629.849,-6.156 2250.395,-6.156 2274.398,1115.521 653.853,1115.521 					"/>
+					<polygon id="SVGID_29_" points="630.691,-7 2251.238,-7 2275.242,1114.679 654.695,1114.679 					"/>
 				</defs>
 				<clipPath id="SVGID_20_">
 					<use xlink:href="#SVGID_29_"  overflow="visible"/>
-				</clipPath>
-			</g>
-			<g>
-				<defs>
-					<polygon id="SVGID_37_" points="629.849,-6.156 2250.395,-6.156 2274.398,1115.521 653.853,1115.521 					"/>
-				</defs>
-				<clipPath id="SVGID_22_">
-					<use xlink:href="#SVGID_37_"  overflow="visible"/>
-				</clipPath>
-			</g>
-			<g>
-				<defs>
-					<polygon id="SVGID_39_" points="629.849,-6.156 2250.395,-6.156 2274.398,1115.521 653.853,1115.521 					"/>
-				</defs>
-				<clipPath id="SVGID_24_">
-					<use xlink:href="#SVGID_39_"  overflow="visible"/>
-				</clipPath>
-				<path opacity="0.1" clip-path="url(#SVGID_24_)" fill="#D13C3D" enable-background="new    " d="M448.71,7.827
-					c-62.19,169.507-66.734,360.133-43.074,537.439c11.346,85.021,13.164,157.741,56.146,227.849
-					c19.552,31.891,64.765,277.985,92.276,299.688c45.435,35.833,31.522,75.958,81.526,101.545
-					c71.596,36.634,214.821,41.22,286.778,76.49c72.748,35.658,160.885,29.075,239.297,36.205
-					c110.73,10.07,455.331-9.818,566.618-12.729c67.424-1.764,134.663-16.979,201.886-17.563c29.947-0.261,61.955,8.75,91.57-0.464
-					c3.563-46.237-35.813-64.558-50.007-111.397c-27.564-90.959-688.968-354.159-751.619-372.418
-					c-127.407-37.129-270.319-63.212-354.813-191.724c-76.066-115.693-167.647-299.295-170.018-442.532
-					c-1.196-72.438,54.867-216.042,7.032-263.534C482.829-343.216,470.767-52.289,448.71,7.827z"/>
-			</g>
-			<g>
-				<defs>
-					<polygon id="SVGID_41_" points="629.849,-6.156 2250.395,-6.156 2274.398,1115.521 653.853,1115.521 					"/>
-				</defs>
-				<clipPath id="SVGID_25_">
-					<use xlink:href="#SVGID_41_"  overflow="visible"/>
-				</clipPath>
-				<path opacity="0.15" clip-path="url(#SVGID_25_)" fill="#D13C3D" enable-background="new    " d="M1294.543,1271.186
-					c-119.177,69.908-260.942,83.713-396.108,68.915c-64.813-7.096-119.315-5.352-176.74-44.53
-					c-26.122-17.824-56.041-37.051-75.499-63.26c-32.13-43.282-60.438-27.537-85.46-75.85
-					c64.711,124.944,36.604-25.559-91.061-280.501c-35.233-70.365-40.755-158.041-55.363-235.406
-					c-20.63-109.258-46.589-451.774-57.595-562.213c-6.669-66.912-3.272-134.299-10.799-200.954
-					c-3.352-29.693-13.867-60.977-10.496-90.779c34.095-5.786,52.434,32.344,89.082,44.127
-					c71.165,22.883,186.822,652.003,207.87,713.206c42.804,124.466,103.203,474.221,209.145,551.693
-					c95.376,69.747,243.282,151.557,350.491,146.916c54.219-2.349,154.782-64.922,195.898-19.828
-					C1576.563,1429.624,1336.81,1246.391,1294.543,1271.186z"/>
-			</g>
-		</g>
-		<g>
-			<g>
-				<defs>
-					<polygon id="SVGID_43_" points="630.691,-7 2251.238,-7 2275.242,1114.679 654.695,1114.679 					"/>
-				</defs>
-				<clipPath id="SVGID_26_">
-					<use xlink:href="#SVGID_43_"  overflow="visible"/>
 				</clipPath>
 			</g>
 		</g>
@@ -254,22 +203,22 @@
 </g>
 <g>
 	<defs>
-		<rect id="SVGID_247_" x="799" width="642" height="1098"/>
+		<rect id="SVGID_215_" x="799" width="642" height="1098"/>
 	</defs>
-	<clipPath id="SVGID_28_">
-		<use xlink:href="#SVGID_247_"  overflow="visible"/>
+	<clipPath id="SVGID_22_">
+		<use xlink:href="#SVGID_215_"  overflow="visible"/>
 	</clipPath>
-	<g id="圖層_1_9_" clip-path="url(#SVGID_28_)">
+	<g id="圖層_1_9_" clip-path="url(#SVGID_22_)">
 		<rect x="-469.057" y="-9.5" fill="#208567" width="1984.174" height="1117"/>
 		<g opacity="0.3" enable-background="new    ">
 			<g>
 				<defs>
-					<rect id="SVGID_249_" x="127.914" y="-148.07" width="1984.174" height="1394.141"/>
+					<rect id="SVGID_217_" x="127.914" y="-148.07" width="1984.174" height="1394.141"/>
 				</defs>
-				<clipPath id="SVGID_30_">
-					<use xlink:href="#SVGID_249_"  overflow="visible"/>
+				<clipPath id="SVGID_24_">
+					<use xlink:href="#SVGID_217_"  overflow="visible"/>
 				</clipPath>
-				<g clip-path="url(#SVGID_30_)">
+				<g clip-path="url(#SVGID_24_)">
 					<g opacity="0.8571">
 						<path fill="none" stroke="#096D52" stroke-width="5" stroke-miterlimit="10" d="M558.025-182.314
 							c0,24.036-15.205,24.036-15.205,48.073c0,24.036,15.205,24.036,15.205,48.073c0,24.037-15.205,24.037-15.205,48.073
@@ -295,7 +244,7 @@
 							c0,24.038-15.206,24.038-15.206,48.076c0,24.042,15.206,24.042,15.206,48.083c0,24.042-15.206,24.042-15.206,48.084"/>
 					</g>
 				</g>
-				<g clip-path="url(#SVGID_30_)">
+				<g clip-path="url(#SVGID_24_)">
 					<g opacity="0.8571">
 						<path fill="none" stroke="#4B987E" stroke-width="5" stroke-miterlimit="10" d="M585.218-193.674
 							c0,24.036-15.205,24.036-15.205,48.073c0,24.036,15.205,24.036,15.205,48.073c0,24.037-15.205,24.037-15.205,48.073
@@ -324,24 +273,24 @@
 			</g>
 			<g>
 				<defs>
-					<rect id="SVGID_251_" x="127.914" y="-148.07" width="1984.174" height="1394.141"/>
+					<rect id="SVGID_219_" x="127.914" y="-148.07" width="1984.174" height="1394.141"/>
 				</defs>
-				<clipPath id="SVGID_31_">
-					<use xlink:href="#SVGID_251_"  overflow="visible"/>
+				<clipPath id="SVGID_25_">
+					<use xlink:href="#SVGID_219_"  overflow="visible"/>
 				</clipPath>
 			</g>
 		</g>
 	</g>
-	<g id="圖層_1_5_" clip-path="url(#SVGID_28_)">
+	<g id="圖層_1_5_" clip-path="url(#SVGID_22_)">
 		<g opacity="0.3" enable-background="new    ">
 			<g>
 				<defs>
-					<rect id="SVGID_255_" x="127.914" y="-1167.5" width="1984.174" height="1117"/>
+					<rect id="SVGID_223_" x="127.914" y="-1167.5" width="1984.174" height="1117"/>
 				</defs>
-				<clipPath id="SVGID_32_">
-					<use xlink:href="#SVGID_255_"  overflow="visible"/>
+				<clipPath id="SVGID_26_">
+					<use xlink:href="#SVGID_223_"  overflow="visible"/>
 				</clipPath>
-				<g clip-path="url(#SVGID_32_)">
+				<g clip-path="url(#SVGID_26_)">
 					<g opacity="0.819">
 						<path fill="none" stroke="#4B987E" stroke-width="9.2911" stroke-miterlimit="10" d="M200.816-1338.765
 							c0,26.149-20.646,26.149-20.646,52.3s20.646,26.15,20.646,52.301s-20.646,26.15-20.646,52.3
