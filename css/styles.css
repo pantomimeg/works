@@ -1,7 +1,7 @@
 /* CSS -------------------------------------------- */
 
 body{
-	background: url(../images/img/main_26.png);
+	background: #C06926;
 	background-size: contain;
 	font-family: "Microsoft JhengHei", sans-serif;
 	font-size: 14px;
@@ -19,6 +19,7 @@ body{
 
 footer{
 	width: 100%;
+	background: url(../images/img/main_26.png);
 	overflow: hidden;
 }
 footer p{
@@ -304,8 +305,19 @@ footer p{
   	background:#208467;
   	height: 100%;
   }
+
+  #head-works-icon{
+  	position: relative;
+  	margin:10px auto;
+  }
+  .img19080{
+  	width: 190px;
+  }
   #head-works{
+  	background: url(../images/img/main_28.png);
+  	background-size: cover;
   	height: 130px;
+  	width: 100%;
   	margin:0 auto;
   	position: fixed;
   	display: block;
@@ -315,13 +327,15 @@ footer p{
   	box-shadow: 5px 0px 30px rgba(0,0,0, .3);
   	text-align: center;
   }
-  #head-works-100{
-  	display: none;
+  #mark{
+  	margin:0px auto;
+  	width: 30%;
+  	text-align: center;
   }
- .head-img{
-	z-index: 9;
+  #mark li{
+  	float: left;
+  	list-style-type: none;
   }
-
   #roll-works{
   	position:fixed;
   	left:2%;
@@ -330,7 +344,7 @@ footer p{
   	list-style-type:none;
   }
   .content{
-  	padding-top:130px;
+  	padding:170px 3% 3% 3%;
   	width: 80%;
   	position: relative;
   	margin: 0 auto;
@@ -339,8 +353,6 @@ footer p{
   	box-shadow: 5px 0px 40px rgba(0,0,0, .2);
   	z-index: 6;
   }
-
-
 
 
   /* --------------------- <768 --------------------- */
@@ -389,6 +401,9 @@ footer p{
   	.img80100{
   		width: 100%;
   	}
+  	.img19080{
+  		width: 80%;
+  	}
   	#Hello{
   		background-image: url(../images/img/main_1.png);
   		height: 700px;
@@ -411,19 +426,18 @@ footer p{
   		font-size: 12px;
   	}
   	/* -- workpage -- */
-  	#head-works-100{
-  		display: block;
-  		width: 100%;
-  		height: 700px;
-  		overflow: hidden;
-  		z-index: 8;
-  	}
   	#head-works{
-  		display: none;
+  		background: url(../images/img/main_3.png) no-repeat;
+  		height: 700px;
+  		z-index: 7;
+  		position: relative;
+  	}
+  	#head-works-icon{
+  		top:35%;
   	}
   	.content{
   		padding:20px;
- 	 	margin-bottom: 20px;
+  		margin-bottom: 20px;
   		width: 90%;
   	}
   }
