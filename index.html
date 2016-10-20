@@ -89,7 +89,6 @@
 				<li><a href="index.html"><img src="images/img/main_16.png" width="220px"></a></li>
 			</ul>
 		</nav>
-
 		<div class="fade-screen"></div>
 	</header>
 
@@ -97,7 +96,7 @@
 		<!-- Hello -->
 		
 		<div id="Hello">
-			<div class="content">
+			<div class="content1">
 				<img class="img80100" src="images/EGLOGO-01.svg">
 			</div>
 		</div>
@@ -116,11 +115,11 @@
 					<h4>1992年出生於高雄<br/>2014年畢業於國立雲林科技大學 創意生活設計系</h4>
 					<p>Born in year 1992, Kaohsiung, Taiwan<br/>Dept. of Creative Design at YunTech. Sep 2010 to Jun 2014.</p>
 					<p>&nbsp;</p>
-					<a href="#modal1" class="btn btn-default" role="button">Contact me</a>
+					<a href="#Contactmebox" class="btn btn-default" role="button">Contact me</a>
 				</div>
-				<div class="remodal" data-remodal-id="modal1" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+				<div class="remodal" data-remodal-id="Contactmebox" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
 					<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-					<div>
+					<div id="Contactme">
 						<p class="boxtitle">Contact me</p>
 						<input id="name" name="name" type="text" placeholder="name" />
 						<input id="email" name="email" type="text" placeholder="email" />
@@ -239,7 +238,8 @@
 			},         
 			success: function(json) {
 				if(json['msg'] == 'success') {
-					alert('成功送出後訊息');      
+					alert('留言已送出，感謝您！');
+					$('.remodal-close').click()      
 				}else{
 					alert('欄位沒有全部條寫完');
 				}

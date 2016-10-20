@@ -16,30 +16,6 @@
 
 	<link rel="stylesheet" type="text/css" href="css/styles.css" />
 
-	<!-- 	<script src="js/jquery.min.js" language="javascript"></script> -->
-	<script language="javascript">
-		$(function(){
-			$('#Hello-btn').click(function(){
-				$('html,body').animate({scrollTop: '0px'}, 800);
-			}); 
-			$('#About-btn').click(function(){
-				$('html,body').animate({scrollTop:$('#About').offset().top}, 800);
-			});
-			$('#APPWebDesign-btn').click(function(){
-				$('html,body').animate({scrollTop:$('#APPWebDesign').offset().top}, 800);
-			});
-			$('#GraphicDesign-btn').click(function(){
-				$('html,body').animate({scrollTop:$('#GraphicDesign').offset().top}, 800);
-			});
-			$('#Illustration-btn').click(function(){
-				$('html,body').animate({scrollTop:$('#Illustration').offset().top}, 800);
-			});
-			$('#DailyUI-btn').click(function(){
-				$('html,body').animate({scrollTop:$('#DailyUI').offset().top}, 800);
-			});
-		});
-	</script>
-
 	<!-- window -->
 	<link rel="stylesheet" href="css/window/remodal.css">
 	<link rel="stylesheet" href="css/window/remodal-default-theme.css">
@@ -63,14 +39,14 @@
 	<header>
 		<!-- 滑動選單 str -->
 		<!-- >768 -->
-		<div id="roll">
+		<div id="roll-works">
 			<li><img src="images/menu/menuimg-26.svg"></li>
-			<li title="Hello" id="Hello-btn" class="a70"><img src="images/menu/menuimg-27.svg"></li>
-			<li title="About" id="About-btn" class="a70"><img src="images/menu/menuimg-28.svg"></li>
-			<li title="APPWebDesign" id="APPWebDesign-btn" class="a70"><img src="images/menu/menuimg-29.svg"></li>
-			<li title="GraphicDesign" id="GraphicDesign-btn" class="a70"><img src="images/menu/menuimg-30.svg"></li>
-			<li title="Illustration" id="Illustration-btn" class="a70"><img src="images/menu/menuimg-31.svg"></li>
-			<li title="DailyUI" id="DailyUI-btn" class="a70"><img src="images/menu/menuimg-32.svg"></li>
+			<li class="a70"><a href="index.html"><img src="images/menu/menuimg-27.svg"></li>
+			<li class="a70"><a href="index.html#About"><img src="images/menu/menuimg-28.svg"></li>
+			<li class="a00"><a href="APPWebDesign.html.html"><img src="images/menu/menuimg-29.svg"></li>
+			<li class="a70"><a href="GraphicDesign.html"><img src="images/menu/menuimg-30.svg"></li>
+			<li class="a70"><a href="Illustration.html"><img src="images/menu/menuimg-31.svg"></li>
+			<li class="a70"><a href="DailyUI.html"><img src="images/menu/menuimg-32.svg"></li>
 			<li><img src="images/menu/menuimg-33.svg"></li>
 		</div>
 		<!-- <768 -->
@@ -83,84 +59,75 @@
 			<ul>
 				<li><img src="images/img/main_11.png" width="220px"></li>
 				<li><a href="APPWebDesign.html"><img src="images/img/main_12.png" width="220px"></a></li>
-				<li><a href="Illustration.html"><img src="images/img/main_13.png" width="220px"></a></li>
+				<li><a href="GraphicDesign.html"><img src="images/img/main_13.png" width="220px"></a></li>
 				<li><a href="Illustration.html"><img src="images/img/main_14.png" width="220px"></a></li>
 				<li><a href="DailyUI.html"><img src="images/img/main_15.png" width="220px"></a></li>
 				<li><a href="index.html"><img src="images/img/main_16.png" width="220px"></a></li>
 			</ul>
 		</nav>
-
 		<div class="fade-screen"></div>
+
+		<!-- workspage -->
+		<div id="head-works">
+			<img src="images/img/main_28.png">
+			<img class="head-img" src="images/img/main_28.png">
+		</div>
+		<div id="head-works-100">
+			<img src="images/img/main_3.png">
+		</div>
 	</header>
 
-	<div id="main">
-		<!-- Hello -->
-		
-		<div id="Hello">
-			<div class="content">
-				<img class="img80100" src="images/EGLOGO-01.svg">
-			</div>
-		</div>
-		
-
+	<div id="mainAD-bg">
 		<!-- About -->
-		<div id="About">
-			<div id="abouteg">
-				<div class="abouteg1 col-md-6 col-sm-12 col-xs-12">
-					<img class="img60" src="images/img/main_25.png" >
-				</div>
-				<div class="abouteg2 col-md-6 col-sm-12 col-xs-12">
-					<h3>潘宜君</h3>
-					<p>PAN,YI-JYUN (EG)</p>
-					<p>&nbsp;</p>
-					<h4>1992年出生於高雄<br/>2014年畢業於國立雲林科技大學 創意生活設計系</h4>
-					<p>Born in year 1992, Kaohsiung, Taiwan<br/>Dept. of Creative Design at YunTech. Sep 2010 to Jun 2014.</p>
-					<p>&nbsp;</p>
-					<a href="#modal1" class="btn btn-default" role="button">Contact me</a>
-				</div>
-				<div class="remodal" data-remodal-id="modal1" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
-					<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-					<div>
-						<p class="boxtitle">Contact me</p>
-						<input id="name" name="name" type="text" placeholder="name" />
-						<input id="email" name="email" type="text" placeholder="email" />
-						<textarea id="message" name="message" cols="60" rows="10" placeholder="message"></textarea>
-						<p><input class="btn btn-default" id="send" type="button" value="Send Message" /></p>
-					</p>
-				</div>
-			</div>
+		<div class="content">
+			<p>© 2007-201</p>
+			<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
+			<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
+			<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
+			<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
+			<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
+			<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
+			<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
+			<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
+			<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
+			<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
+			<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
+			<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
+			<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
+			<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
+			<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
+			<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
+			<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
+			<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
+			<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
+			<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
+			<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
+
+
+
+
 		</div>
 	</div>
 
+	<footer>
+		<div class="footer-nobg">
+			<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
+		</div>
+	</footer>
 
-
-
-	<!-- Works -->
-
-	<div id="works">
-		<div id="APPWebDesign" class="col-md-6 col-sm-6 col-xs-12"><a href="APPWebDesign.html"><img src="images/img/main_38.png" width="100%"></a></div>
-		<div id="GraphicDesign" class="col-md-6 col-sm-6 col-xs-12"><a href="GraphicDesign.html"><img src="images/img/main_39.png" width="100%"></a></div>
-		<div id="Illustration" class="col-md-6 col-sm-6 col-xs-12"><a href="Illustration.html"><img src="images/img/main_40.png" width="100%"></a></div>
-		<div id="DailyUI" class="col-md-6 col-sm-6 col-xs-12"><a href="DailyUI.html"><img src="images/img/main_41.png" width="100%"></a></div>
-	</div>
-</div>
-<footer>
-	<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-</footer>
-
-<!-- burger -->
-<script>
-	$(function() {
-		$('.burger-box,.fade-screen,.sliding-nav-close').on('click touchstart', function(e) {
-			e.preventDefault();
-			$('.burger-box').toggleClass('is-open');
-			$('.sliding-nav,.fade-screen').toggleClass('is-visible');
+	<!-- burger -->
+	<script>
+		$(function() {
+			$('.burger-box,.fade-screen,.sliding-nav-close').on('click touchstart', function(e) {
+				e.preventDefault();
+				$('.burger-box').toggleClass('is-open');
+				$('.sliding-nav,.fade-screen').toggleClass('is-visible');
+			});
 		});
-	});
-</script>
+	</script>
 
-<!-- window -->
-<script>
+	<!-- window -->
+	<script>
   // window.REMODAL_GLOBALS = {
   //   NAMESPACE: 'remodal',
   //   DEFAULTS: {
@@ -219,36 +186,6 @@
   $('[data-remodal-id=modal2]').remodal({
   	modifier: 'with-red-theme'
   });
-</script>
-
-<!--contactme-->
-<script type="text/javascript">
-	$('#send').click(function () { 
-		var name = $('#name').val();
-		var email = $('#email').val();
-		var message = $('#message').val();
-
-		$.ajax({
-			url: 'http://ximo-studio.com/mail/mail_send_eg.php?callback=?',
-			type: 'GET',
-			dataType: 'jsonp',
-			data: {name: name, email: email, message: message},
-			beforeSend: function() {
-			},
-			complete: function() {
-			},         
-			success: function(json) {
-				if(json['msg'] == 'success') {
-					alert('成功送出後訊息');      
-				}else{
-					alert('欄位沒有全部條寫完');
-				}
-			},   
-			error: function(xhr, ajaxOptions, thrownError) {
-				alert('系統發生錯誤，請稍候在嘗試');
-			}
-		});
-	}); 
 </script>
 
 </body>
