@@ -19,7 +19,7 @@ body{
 
 footer{
 	width: 100%;
-	background: url(../images/img/main_26.png);
+	background: url(../images/img/main_26.svg);
 	overflow: hidden;
 }
 footer p{
@@ -207,7 +207,7 @@ footer p{
   /* -- Hello -- */
   #Hello{
   	height: 1000px;
-  	background: url(../images/img/main_26.png) 50% 0 fixed;
+  	background: url(../images/img/main_26.svg) 50% 0 fixed;
   	background-size: contain;
   	background-color: #C06926;
   	overflow: hidden;
@@ -220,7 +220,7 @@ footer p{
   /* -- About -- */
   #About{
   	height: 700px;
-  	background: url(../images/img/main_27.png)50% 0 no-repeat fixed;
+  	background: url(../images/img/main_27.svg)50% 0 no-repeat fixed;
   	background-size: 100%;
   	background-color: #F6D792;
   	overflow: hidden;
@@ -314,9 +314,9 @@ footer p{
   	width: 190px;
   }
   #head-works{
-  	background: url(../images/img/main_28.png);
+  	background: url(../images/img/main_28.svg);
   	background-size: cover;
-  	height: 130px;
+  	height: 180px;
   	width: 100%;
   	margin:0 auto;
   	position: fixed;
@@ -328,13 +328,24 @@ footer p{
   	text-align: center;
   }
   #mark{
-  	margin:0px auto;
-  	width: 30%;
+  	margin:auto;
+  	width: 260px;
   	text-align: center;
   }
-  #mark li{
+  #mark ul li {
   	float: left;
   	list-style-type: none;
+
+  }
+  #mark ul li a{
+  	padding: 8px;
+  	color: #F4E8D1;
+  }
+  .line{
+  	margin-top:1px; 
+  	width:1px;
+  	height:16px;
+  	background:#F4E8D1;
   }
   #roll-works{
   	position:fixed;
@@ -405,14 +416,14 @@ footer p{
   		width: 80%;
   	}
   	#Hello{
-  		background-image: url(../images/img/main_1.png);
+  		background-image: url(../images/img/main_1.svg);
   		height: 700px;
   	}
   	#Hello .content1{
   		margin-top:35%; 
   	}
   	#About{
-  		background-image: url(../images/img/main_2.png);
+  		background-image: url(../images/img/main_2.svg);
   		background-attachment: initial;
   		height: 750px;
   	}
@@ -427,7 +438,7 @@ footer p{
   	}
   	/* -- workpage -- */
   	#head-works{
-  		background: url(../images/img/main_3.png) no-repeat;
+  		background: url(../images/img/main_3.svg) no-repeat;
   		height: 700px;
   		z-index: 7;
   		position: relative;
