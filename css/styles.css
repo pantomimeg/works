@@ -31,7 +31,11 @@ footer p{
 	font-weight: normal;
 	margin: 30px 0;
 }
-
+.boxtitle{
+	font-size: 20px;
+	margin: 15px 0;
+	color: #4A2E2B;
+}
 
 /* -- MENU -- */
 #roll {
@@ -230,18 +234,18 @@ footer p{
   .abouteg2{
   	padding:120px 0 0 20px;
   }
-  .abouteg2 h3{
+  #About h3{
   	font-size: 22px;
   	letter-spacing: 0.2em;
   	color: #4A2E2B;
   }
-  .abouteg2 h4{
+  #About h4{
   	font-size: 16px;
   	letter-spacing: 0.05em;
   	line-height: 1.5em;
   	color: #4A2E2B;
   }
-  .abouteg2 p{
+  #About p{
   	font-size: 13px;
   	color: #E78F20;
   	line-height: 1.5em;
@@ -338,13 +342,14 @@ footer p{
   	}
   	#Hello{
   		background-image: url(../images/img/main_1.png);
-  		height: 800px;
+  		height: 700px;
   	}
   	#Hello .content{
   		margin-top:35%; 
   	}
   	#About{
   		background-image: url(../images/img/main_2.png);
+  		background-attachment: initial;
   		height: 750px;
   	}
   	.abouteg2{
