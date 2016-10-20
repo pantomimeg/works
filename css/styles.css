@@ -201,7 +201,7 @@ footer p{
 
   /* -- Hello -- */
   #Hello{
-  	height: 800px;
+  	height: 1000px;
   	background: url(../images/img/main_26.png) 50% 0 fixed;
   	background-size: contain;
   	background-color: #C06926;
@@ -243,19 +243,19 @@ footer p{
   }
   .abouteg2 p{
   	font-size: 13px;
-  	color: #E99f3a;
+  	color: #E78F20;
   	line-height: 1.5em;
   }
 
   .btn-default {
-  	color: #EEB81A;
+  	color: #E78F20;
   	background-color: transparent;
-  	border-color: #EEB81A;
+  	border-color: #E78F20;
   }
   .btn-default:hover {
   	color: #F4E8D1;
-  	background-color: #E99f3a;
-  	border-color: #E99f3a;
+  	background-color: #E78F20;
+  	border-color: #E78F20;
   }
   input, textarea{
   	width: 100%;

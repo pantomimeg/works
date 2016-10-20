@@ -122,47 +122,47 @@
 					<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
 					<div>
 						<h2>Contact me</h2>
-						<FORM method="post" ACTION="mailto:paneg.jpeg@gmail.com?SUBJECT=我要留言" enctype="text/plain">
-							<input type=text name=NAME placeholder=NAME>
-							<input type=text name=EMAIL placeholder=EMAIL>
-							<textarea cols=60 rows=10 name=MESSAGE placeholder=MESSAGE></textarea>
-							<P><INPUT TYPE=submit VALUE="Send Message" class="btn btn-default"></p>
-							</form>
-						</p>
-					</div>
+						<form action="https://formspree.io/paneg.jpeg@gmail.com" method="POST">
+							<input type="text" name="name" placeholder=name >
+							<input type="email" name="_replyto" placeholder=email >
+							<textarea cols=60 rows=10 type="message" name=message placeholder=message></textarea>
+							<input type="submit" value="Send">
+						</form>
+					</p>
 				</div>
 			</div>
 		</div>
-
-
-
-
-		<!-- Works -->
-
-		<div id="works">
-			<div id="APPWebDesign" class="col-md-6 col-sm-6 col-xs-12"><a href="APPWebDesign.html"><img src="images/img/main_38.png" width="100%"></a></div>
-			<div id="GraphicDesign" class="col-md-6 col-sm-6 col-xs-12"><a href="GraphicDesign.html"><img src="images/img/main_39.png" width="100%"></a></div>
-			<div id="Illustration" class="col-md-6 col-sm-6 col-xs-12"><a href="Illustration.html"><img src="images/img/main_40.png" width="100%"></a></div>
-			<div id="DailyUI" class="col-md-6 col-sm-6 col-xs-12"><a href="DailyUI.html"><img src="images/img/main_41.png" width="100%"></a></div>
-		</div>
 	</div>
-	<footer>
-		<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-	</footer>
+
+
+
+
+	<!-- Works -->
+
+	<div id="works">
+		<div id="APPWebDesign" class="col-md-6 col-sm-6 col-xs-12"><a href="APPWebDesign.html"><img src="images/img/main_38.png" width="100%"></a></div>
+		<div id="GraphicDesign" class="col-md-6 col-sm-6 col-xs-12"><a href="GraphicDesign.html"><img src="images/img/main_39.png" width="100%"></a></div>
+		<div id="Illustration" class="col-md-6 col-sm-6 col-xs-12"><a href="Illustration.html"><img src="images/img/main_40.png" width="100%"></a></div>
+		<div id="DailyUI" class="col-md-6 col-sm-6 col-xs-12"><a href="DailyUI.html"><img src="images/img/main_41.png" width="100%"></a></div>
+	</div>
+</div>
+<footer>
+	<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
+</footer>
 
 <!-- burger -->
 <script>
-$(function() {
-  $('.burger-box,.fade-screen,.sliding-nav-close').on('click touchstart', function(e) {
-    e.preventDefault();
-    $('.burger-box').toggleClass('is-open');
-    $('.sliding-nav,.fade-screen').toggleClass('is-visible');
-  });
-});
+	$(function() {
+		$('.burger-box,.fade-screen,.sliding-nav-close').on('click touchstart', function(e) {
+			e.preventDefault();
+			$('.burger-box').toggleClass('is-open');
+			$('.sliding-nav,.fade-screen').toggleClass('is-visible');
+		});
+	});
 </script>
 
 <!-- window -->
-	<script>
+<script>
   // window.REMODAL_GLOBALS = {
   //   NAMESPACE: 'remodal',
   //   DEFAULTS: {
