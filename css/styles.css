@@ -357,11 +357,11 @@ footer p{
   	text-align: center;
   }
   #mark{
-  	width: 80%;
+  	width: 64%;
   	height: 50px;
   	margin:auto;
   	margin-top: 95px;
-  	margin-left: 10%;
+  	margin-left: 18%;
   	padding: 20px 0;
   	position: fixed;
   	z-index: 7;
@@ -416,7 +416,7 @@ footer p{
   }
   .content{
   	padding:170px 5% 3% 5%;
-  	width: 80%;
+  	width: 70%;
   	position: relative;
   	margin: 0 auto;
   	margin-bottom: 40px;
@@ -438,8 +438,9 @@ footer p{
     clear: both;
     margin:5px 0 20px 0;
     padding:20px 0 0 3px;
-    font-size: 18px;
     color: #4A2E2B;
+    font-size: 17px;
+    font-weight: bold;
   }
   .workstitle p{
     border-left: 5px solid #4A2E2B;
@@ -553,6 +554,8 @@ footer p{
   .webscreen .appp {
     bottom: 0px;
     margin-bottom: -23px;
+    width: 70%;
+    left: 45%;
   }
   .appp {
     bottom: 0px;
@@ -602,7 +605,7 @@ footer p{
 #footermenu{
  clear: both;;
  width: 100%;
- padding-top: 30px;
+ padding-top: 40px;
  margin: 30px auto 0px auto;
  text-align: center;
 }
@@ -614,6 +617,21 @@ footer p{
 }
 
 
+
+/* --------------------- >1200 --------------------- */
+
+@media (min-width: 1200px){
+  .content{
+    width: 60%;
+  }
+  #Hello .content1{
+    margin-top:11%; 
+  }
+  #mark{
+    width: 56%;
+    margin-left: 22%;
+  }
+}
 /* --------------------- <768 --------------------- */
 
 @media (max-width: 768px){
@@ -694,24 +712,29 @@ footer p{
     background-color: #208467;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 680px;
   }
   #headworks-GDbg{
     background-image: url(../images/img/png/main_43_4.png);
     background-color: #D03C3C;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 680px;
+
   }
   #headworks-AIbg{
     background-image: url(../images/img/png/main_43_5.png);
     background-color: #EBB024;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 680px;
   }
   #headworks-DUbg{
     background-image: url(../images/img/png/main_43_6.png);
     background-color: #4A2E2B;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 680px;
   }
 
   .headworks{
@@ -822,9 +845,13 @@ footer p{
 /* --------------------- <320 --------------------- */
 
 @media (max-width: 320px){
- #head-works-icon{
-  top:30%;
-}
+  #Hello{
+    height: 600px;
+  }
+  /* -- workpage -- */
+  #head-works-icon{
+    top:30%;
+  }
 }
 
 
