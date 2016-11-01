@@ -35,6 +35,8 @@ footer p{
 	font-size: 18px;
 	margin-bottom:15px;
 	color: #4A2E2B;
+  font-weight: bold;
+  letter-spacing: 0.05em;
 }
 .boxtext{
 	margin:-5px 0 15px 0; 
@@ -243,7 +245,7 @@ footer p{
   	margin: 100px auto;
   }
   .abouteg1{
-  	text-align: center;
+  	text-align: right;
   }
   .abouteg2{
   	padding:120px 0 0 20px;
@@ -492,6 +494,8 @@ footer p{
     border-bottom: 1px solid #F4E8D1;
     padding-bottom: 15px;
     margin-bottom: 30px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
   }
   .boxtext2{
     margin:-12px 0 15px 0; 
@@ -599,8 +603,8 @@ footer p{
  .Daycontent img, .AIcontent img, .GDcontent img{
    width: 100%;
  }
- .ai80100 img{
-  width: 80%;
+ .ai60100 img{
+  width: 60%;
 }
 #footermenu{
  clear: both;;
@@ -616,8 +620,6 @@ footer p{
  opacity: .7;
 }
 
-
-
 /* --------------------- >1200 --------------------- */
 
 @media (min-width: 1200px){
@@ -627,9 +629,29 @@ footer p{
   #Hello .content1{
     margin-top:11%; 
   }
+  #About{
+    height: 800px;
+  }
+  #abouteg{
+    margin: 150px auto;
+  }
   #mark{
     width: 56%;
     margin-left: 22%;
+  }
+}
+
+/* --------------------- >991 --------------------- */
+@media (max-width: 991px){
+  #About{
+    height: 1000px;
+  }
+  .abouteg1{
+    text-align: center;
+  }
+  .abouteg2{
+    text-align: center;
+    padding:20px 0;
   }
 }
 /* --------------------- <768 --------------------- */
@@ -666,9 +688,11 @@ footer p{
 #About{
   height: 950px;
 }
-.abouteg2{
-  text-align: center;
-  padding:20px 0;
+#abouteg{
+  margin: 100px auto;
+}
+.ai6080100 img{
+  width: 80%;
 }
 }
 
@@ -681,6 +705,9 @@ footer p{
   .img19080{
     width: 80%
   }
+  .ai6080100 img{
+    width: 100%;
+  }
   #Hello{
     background-image: url(../images/img/main_1.svg);
     height: 700px;
@@ -692,6 +719,9 @@ footer p{
     background-image: url(../images/img/main_2.svg);
     background-attachment: initial;
     height: 750px;
+  }
+  .abouteg1{
+    text-align: center;
   }
   .abouteg2{
     padding:20px 30px;
