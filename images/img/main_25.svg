@@ -8,12 +8,12 @@
 	<circle opacity="0.3" fill="#F4D08A" cx="250" cy="250.001" r="245.117"/>
 	<g>
 		<defs>
-			<circle id="SVGID_53_" cx="250" cy="250.001" r="202.427"/>
+			<circle id="SVGID_67_" cx="250" cy="250.001" r="202.427"/>
 		</defs>
 		<clipPath id="SVGID_2_">
-			<use xlink:href="#SVGID_53_"  overflow="visible"/>
+			<use xlink:href="#SVGID_67_"  overflow="visible"/>
 		</clipPath>
-		<g transform="matrix(1 0 0 1 9.536743e-007 0)" clip-path="url(#SVGID_2_)">
+		<g transform="matrix(1 0 0 1 9.536743e-007 9.536743e-007)" clip-path="url(#SVGID_2_)">
 			
 				<image overflow="visible" width="1149" height="1149" xlink:href="data:image/jpeg;base64,/9j/4SBXRXhpZgAATU0AKgAAAAgADgEAAAMAAAABBH0AAAEBAAMAAAABBH0AAAECAAMAAAADAAAA
 tgEGAAMAAAABAAIAAAESAAMAAAABAAEAAAEVAAMAAAABAAMAAAEaAAUAAAABAAAAvAEbAAUAAAAB
@@ -8252,7 +8252,7 @@ dy396EMca4fxfxb/AC4yyiVnuMn9PR9P9t7QbRoExFma2vmTg8PQ1PH59GN/oMy/VYn+WR5eYp/g
 6J/8m16cHd+ObY8tU3Zv8YP8JixsEa4w7m+/9HkqI6h5VPk+tozx7YvfA+tH0hJavmKZoPUno2sf
 H8H/ABkAQUxQ1/kAP8PVguyzk2q8Gd7xwxb0/h1P/Hkxk089CZPsanzCullgp5FUU2u3oJJt7Wvp
 I/xk0bypn09KdEYoH/xbJ+eP8/RSAPjv/s0zlHpv7vfaxfcp40/g/wDfj7ib7IeTyeTyfbfcc6fZ
-JSz+oHcfD0nyPHHz6Nq3X0R7Rqr6jhpPy+zr/9k=" transform="matrix(0.4128 0 0 0.4128 12.8643 12.8647)">
+JSz+oHcfD0nyPHHz6Nq3X0R7Rqr6jhpPy+zr/9k=" transform="matrix(0.4128 0 0 0.4128 12.8643 12.8643)">
 			</image>
 		</g>
 	</g>
@@ -8260,19 +8260,19 @@ JSz+oHcfD0nyPHHz6Nq3X0R7Rqr6jhpPy+zr/9k=" transform="matrix(0.4128 0 0 0.4128 12
 <g>
 	<g>
 		<defs>
-			<rect id="SVGID_209_" x="-742.157" y="209" width="358.75" height="82"/>
+			<rect id="SVGID_245_" x="-742.157" y="209" width="358.75" height="82"/>
 		</defs>
 		<clipPath id="SVGID_4_">
-			<use xlink:href="#SVGID_209_"  overflow="visible"/>
+			<use xlink:href="#SVGID_245_"  overflow="visible"/>
 		</clipPath>
 		<g clip-path="url(#SVGID_4_)">
 			<defs>
-				<rect id="SVGID_211_" x="-768.592" y="187.006" width="433.536" height="149.028"/>
+				<rect id="SVGID_247_" x="-768.592" y="187.006" width="433.536" height="149.027"/>
 			</defs>
 			<clipPath id="SVGID_6_">
-				<use xlink:href="#SVGID_211_"  overflow="visible"/>
+				<use xlink:href="#SVGID_247_"  overflow="visible"/>
 			</clipPath>
-			<rect x="-1230.521" y="-419.251" clip-path="url(#SVGID_6_)" fill="#C16926" width="1358.748" height="764.914"/>
+			<rect x="-1230.521" y="-419.252" clip-path="url(#SVGID_6_)" fill="#C16926" width="1358.748" height="764.915"/>
 		</g>
 	</g>
 </g>

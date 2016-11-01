@@ -3,7 +3,7 @@
 body{
 	background: #C06926;
 	background-size: contain;
-	font-family: "Microsoft JhengHei", sans-serif;
+	font-family: "Microsoft JhengHei", verdana;
 	font-size: 14px;
 }
 #main{
@@ -32,9 +32,15 @@ footer p{
 	margin: 22px 0 17px 0;
 }
 .boxtitle{
-	font-size: 20px;
-	margin: 15px 0;
+	font-size: 18px;
+	margin-bottom:15px;
 	color: #4A2E2B;
+}
+.boxtext{
+	margin:-5px 0 15px 0; 
+  text-align: center;
+  color: #999;
+  font-size: 15px;
 }
 
 /* -- MENU -- */
@@ -182,13 +188,13 @@ footer p{
   	-webkit-transition: all 0.15s ease-out 0s;
   	-moz-transition: all 0.15s ease-out 0s;
   	transition: all 0.15s ease-out 0s;
-  	background: #F4E8D1;
+  	background: rgb(45, 26, 24);
   	opacity: 0;
   	visibility: hidden;
   	z-index: 997;
   }
   .fade-screen.is-visible {
-  	opacity: .6;
+  	opacity: .9;
   	visibility: visible;
   }
 
@@ -204,6 +210,11 @@ footer p{
   }
   .burgermenu{
   	width: 220px;
+  }
+  .burger-b{
+    width: 220px;
+    bottom: 0;
+    position: fixed;
   }
 
   /* -- Hello -- */
@@ -314,19 +325,23 @@ footer p{
   	width: 190px;
   }
   #headworks-ADbg{
-  	background: url(../images/img/main_28.svg);
+  	background-image: url(../images/img/main_28.svg);
+  	background-color: #208467;
   	background-size: cover;
   }
   #headworks-GDbg{
-  	background: url(../images/img/main_29.svg);
+  	background-image:url(../images/img/main_29.svg);
+  	background-color:#D03C3C;
   	background-size: cover;
   }
   #headworks-AIbg{
-  	background: url(../images/img/main_30.svg);
+  	background-image:url(../images/img/png/main_43_30.png);
+  	background-color:#EBB024;
   	background-size: cover;
   }
   #headworks-DUbg{
-  	background: url(../images/img/main_31.svg);
+  	background-image:url(../images/img/main_31.svg);
+  	background-color:#4A2E2B;
   	background-size: cover;
   }
   .headworks{
@@ -358,10 +373,10 @@ footer p{
   	color: #4A2E2B;
   	font-size: 14px;
   	letter-spacing: 0.05em;
-  	opacity: .75;
+  	opacity: .8;
   }
   #mark a:hover{
-  	opacity: .55;
+  	opacity: .6;
   	text-decoration: none;
   }
   .line{
@@ -378,6 +393,10 @@ footer p{
   	top:95px;
   	z-index: 7;
   	list-style-type:none;
+  }
+  .box-s{
+  	box-shadow: 0px 1px 6px rgba(0,0,0, .35);
+  	margin-bottom:4px; 
   }
   #mainAD-bg{
   	background:#208467;
@@ -396,7 +415,7 @@ footer p{
   	height: 100%;
   }
   .content{
-  	padding:170px 3% 3% 3%;
+  	padding:170px 5% 3% 5%;
   	width: 80%;
   	position: relative;
   	margin: 0 auto;
@@ -405,164 +424,408 @@ footer p{
   	box-shadow: 5px 0px 40px rgba(0,0,0, .2);
   	z-index: 6;
   }
-
-
-  #footermenu{
-  	width: 100%;
-  	margin: 30px auto 0px auto;
-  	text-align: center;
+  .content.c-ai {
+  	padding: 90px 5% 3% 5%;
   }
-  #footermenu img{
-  	width: 35px;
+  #APPCart,#Banner,#Day1-30{
+    margin-top: 0;
   }
-  #footermenu a:hover{
-  	opacity: .7;
+  #WebDesign,#LogoVi,#OtherDesign,#Day31-60,#Day61-100{
+    padding-top: 60px;
+    clear: both;
   }
-
-  /* --------------------- <768 --------------------- */
-
-  @media (max-width: 768px){
-  	.img100{
-  		width: 100%;
-  	}
-  	.img80{
-  		width: 80%;
-  	}	
-  	.img60{
-  		width: 60%;
-  	}	
-  	.img80100{
-  		width: 80%;
-  	}
-  	#roll{
-  		display: none;
-  	}
-  	#roll-works{
-  		display: none;
-  	}
-
-  	.burger-box{
-  		display: block;
-  	}
-  	#Hello{
-  		height: 1200px;
-  	}
-  	#Hello .content1{
-  		margin-top:25%; 
-  	}
-  	#About{
-  		height: 950px;
-  	}
-  	.abouteg2{
-  		text-align: center;
-  		padding:20px 0;
-  	}
+  .workstitle{
+    clear: both;
+    margin:5px 0 20px 0;
+    padding:20px 0 0 3px;
+    font-size: 18px;
+    color: #4A2E2B;
   }
-
-  /* --------------------- <478 --------------------- */
-
-  @media (max-width: 478px){
-  	.img80100{
-  		width: 100%;
-  	}
-  	.img19080{
-  		width: 80%
-  	}
-  	#Hello{
-  		background-image: url(../images/img/main_1.svg);
-  		height: 700px;
-  	}
-  	#Hello .content1{
-  		margin-top:35%; 
-  	}
-  	#About{
-  		background-image: url(../images/img/main_2.svg);
-  		background-attachment: initial;
-  		height: 750px;
-  	}
-  	.abouteg2{
-  		padding:20px 30px;
-  	}
-  	footer{
-  		background-image: url(../images/img/main_1.svg);
-  		background-size: cover;
-  		clear: both;
-  	}
-  	footer p{
-  		font-size: 12px;
-  		margin: 18px 0 13px 0;
-  	}
-  	/* -- workpage -- */
-
-  	#headworks-ADbg{
-  		background: url(../images/img/main_3.svg) no-repeat;
-  		background-size: cover;
-  	}
-  	#headworks-GDbg{
-  		background: url(../images/img/main_4.svg) no-repeat;
-  		background-size: cover;
-  	}
-  	#headworks-AIbg{
-  		background: url(../images/img/main_5.svg) no-repeat;
-  		background-size: cover;
-  	}
-  	#headworks-DUbg{
-  		background: url(../images/img/main_6.svg) no-repeat;
-  		background-size: cover;
-  	}
-  	.headworks{
-  		margin-top: -1px;
-  		height: 700px;
-  		z-index: 8;
-  		position: relative;
-  	}
-  	#head-works-icon{
-  		top:35%;
-  	}
-  	#follow{
-  		display: block;
-  	}
-  	#mark{
-  		display: none;
-  	}
-  	.navbar-inverse-ADbg{
-  		background: url(../images/img/main_7.svg);
-  		background-size: 100%;
-  	}
-  	.navbar-inverse-GDbg{
-  		background: url(../images/img/main_8.svg);
-  		background-size: 100%;
-  	}
-  	.navbar-inverse-AIbg{
-  		background: url(../images/img/main_9.svg);
-  		background-size: 100%;
-  	}
-  	.navbar-inverse-DUbg{
-  		background: url(../images/img/main_10.svg);
-  		background-size: 100%;
-  	}
-  	.navbar-inverse {
-  		border-color: transparent;
-  		height: 55px;
-  		z-index: 7;
-  		box-shadow: 0px 0px 15px rgba(0,0,0, .3);
-  		text-align: center;
-  		margin-bottom: -55px;
-  		top: -55px;
-  		border:none;
-  	}
-  	.followicon{
-  		height: 45px;
-  		margin: 4px;
-  	}
-  	.content{
-  		padding:20px;
-  		margin-bottom: 20px;
-  		width: 90%;
-  	}
+  .workstitle p{
+    border-left: 5px solid #4A2E2B;
+    padding-left: 10px;
+  }
+  .workscontent{
+  	padding-bottom: 20px;
+  }
+  .workscontent img{
+  	padding: 3px;
+  }
+  .appbox{
+    text-align:center;
+  }
+  .appbox2{
+    padding: 90px 70px 0 0;
+  }
+  .webbox{
+    text-align:center;
+    padding-top: 20px;
+    width: 100%;
+  }
+  .webbox2{
+    color: #4A2E2B;
+    padding: 40px 50px 0 50px;
+  }
+  .AIbox{
+    text-align:center;
+    width: 380px;
+  }
+  .AIbox img{
+    width: 100%;
+  }
+  .AIbox2{
+    padding: 90px 40px 0 40px;
+  }
+  .AIbox3{
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align:center;
+    width: 90%;
+  }
+  .AIbox4{
+    padding: 50px 40px 30px 40px;
+  }
+  .boxtitle2{
+    font-size: 18px;
+    color: #4A2E2B;
+    border-bottom: 1px solid #F4E8D1;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+  }
+  .boxtext2{
+    margin:-12px 0 15px 0; 
+    text-align: justify;
+    color: #999;
+    font-size: 15px;
+  }
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+  }
+  .appscreen{
+    background: url(../images/img/main-45.svg) no-repeat;
+    width: 250px;
+    height: 500px;
+    margin: 0 auto;
+  }
+  .appscreen2{
+    background: url(../images/img/main_50.svg) no-repeat;
+    width: 250px;
+    height: 460px;
+    margin: 0 auto;
+  }
+  .appshow{
+    position: fixed;
+    width: 205px;
+    margin: 45px 23px 0 23px;
+  }
+  .webscreen{
+    background: url(../images/img/main_46.svg) no-repeat;
+    width: 600px;
+    height: 480px;
+    margin: 0 auto;
+  }
+  .webshow{
+    position: fixed;
+    width: 535px;
+    margin: 37px 32px 0 32px;
+  }
+  #WebD2{
+    height: 300px;
+    overflow: hidden;
+  }
+  #WebD2 .appp{
+    bottom: 0px;
+    margin-bottom: 6px;
+  }
+  .webshow2{
+    position: fixed;
+    width: 535px;
+    margin: 25px 32px 0 32px;
+  }
+  .webshow3{
+    position: fixed;
+    width: 400px;
+    margin: 22px 100px 0 100px;
   }
 
+  .webscreen .appp {
+    bottom: 0px;
+    margin-bottom: -23px;
+  }
+  .appp {
+    bottom: 0px;
+    margin-bottom: -21px;
+  }
+  .appp .active{
+    background-color: #bbb;
+    width: 8px;
+    height: 8px;
+  }
 
+  .appp li{
+    border: 1px solid #bbb;
+    width: 7px;
+    height: 7px;
+  }
+  .appbottom{
+    padding-top:20px;
+    margin-bottom: -14px;
+    text-align: center;
+  }
+  .appbottom a:hover{
+    opacity: .6;
+  }
+  .appbottom img{
+    margin: 0 -2px;
+  }
+  .btps{
+    font-size:12px;
+    color: #DEDEDE;
+    text-align: center;
+  }
+  #continued{
+   clear: both;
+   margin: 0px auto;
+   padding: 40px 0 10px 0;
+   width: 100%;
+   text-align: center;
+   color: #ddd;
+ }
+ .Daycontent img, .AIcontent img, .GDcontent img{
+   width: 100%;
+ }
+ .ai80100 img{
+  width: 80%;
+}
+#footermenu{
+ clear: both;;
+ width: 100%;
+ padding-top: 30px;
+ margin: 30px auto 0px auto;
+ text-align: center;
+}
+#footermenu img{
+ width: 35px;
+}
+#footermenu a:hover{
+ opacity: .7;
+}
+
+
+/* --------------------- <768 --------------------- */
+
+@media (max-width: 768px){
+ .img100{
+  width: 100%;
+}
+.img80{
+  width: 80%;
+}	
+.img60{
+  width: 60%;
+}	
+.img80100{
+  width: 80%;
+}
+#roll{
+  display: none;
+}
+#roll-works{
+  display: none;
+}
+
+.burger-box{
+  display: block;
+}
+#Hello{
+  height: 1200px;
+}
+#Hello .content1{
+  margin-top:25%; 
+}
+#About{
+  height: 950px;
+}
+.abouteg2{
+  text-align: center;
+  padding:20px 0;
+}
+}
+
+/* --------------------- <478 --------------------- */
+
+@media (max-width: 478px){
+  .img80100{
+    width: 100%;
+  }
+  .img19080{
+    width: 80%
+  }
+  #Hello{
+    background-image: url(../images/img/main_1.svg);
+    height: 700px;
+  }
+  #Hello .content1{
+    margin-top:35%; 
+  }
+  #About{
+    background-image: url(../images/img/main_2.svg);
+    background-attachment: initial;
+    height: 750px;
+  }
+  .abouteg2{
+    padding:20px 30px;
+  }
+  footer{
+    background-image: url(../images/img/main_1.svg);
+    background-size: cover;
+    clear: both;
+  }
+  footer p{
+    font-size: 12px;
+    margin: 18px 0 13px 0;
+  }
+  /* -- workpage -- */
+
+  #headworks-ADbg{
+    background-image: url(../images/img/png/main_43_3.png);
+    background-color: #208467;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #headworks-GDbg{
+    background-image: url(../images/img/png/main_43_4.png);
+    background-color: #D03C3C;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #headworks-AIbg{
+    background-image: url(../images/img/png/main_43_5.png);
+    background-color: #EBB024;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #headworks-DUbg{
+    background-image: url(../images/img/png/main_43_6.png);
+    background-color: #4A2E2B;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .headworks{
+    margin-top: -1px;
+    height: 680px;
+    z-index: 8;
+    position: relative;
+    box-shadow: 0px 0px 8px rgba(0,0,0, .3);
+  }
+  #head-works-icon{
+    top:35%;
+  }
+  #follow{
+    display: block;
+  }
+  #mark{
+    display: none;
+  }
+  .navbar-inverse-ADbg{
+    background: url(../images/img/png/main_43_7.png);
+    background-size: 100%;
+  }
+  .navbar-inverse-GDbg{
+    background: url(../images/img/png/main_43_8.png);
+    background-size: 100%;
+  }
+  .navbar-inverse-AIbg{
+    background: url(../images/img/png/main_43_9.png);
+    background-size: 100%;
+  }
+  .navbar-inverse-DUbg{
+    background: url(../images/img/png/main_43_10.png);
+    background-size: 100%;
+  }
+  .navbar-inverse {
+    border-color: transparent;
+    height: 55px;
+    z-index: 7;
+    box-shadow: 0px 0px 15px rgba(0,0,0, .3);
+    text-align: center;
+    margin-bottom: -55px;
+    top: -55px;
+    border:none;
+  }
+  .followicon{
+    height: 45px;
+    margin: 4px;
+  }
+  .content{
+    padding:20px;
+    margin-bottom: 20px;
+    width: 90%;
+    box-shadow: 0px 0px 8px rgba(0,0,0, .2);
+  }
+  .content.c-ai {
+    padding:20px;
+  }
+  #WebDesign,#LogoVi,#OtherDesign,#Day31-60,#Day61-100{
+    padding-top: 35px;
+  }
+  .workstitle{
+    margin:0px 0 10px 0;
+    font-size: 16px;
+  }
+  .appbox2{
+    padding: 20px 5px 0 5px;
+  }
+  .webbox2{
+    padding: 40px 0 0 0;
+  }
+  .AIbox{
+    width: 100%;
+    padding-top: 15px;
+  }
+  .AIbox2{
+    padding: 20px 5px 0 5px;
+  }
+  .AIbox3{
+    width: 100%;
+  }
+  .AIbox4{
+    padding: 40px 5px 0 5px;
+  }
+  .webscreen{
+    background: transparent;
+    width: 100%;
+    height: 100%;
+  }
+  .webshow,.webshow2,.webshow3{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  #WebD2{
+    height: 100%;
+    overflow: visible;
+  }
+  #WebD2 .appp{
+    margin-bottom: -23px;
+  }
+
+
+
+
+}
+
+/* --------------------- <320 --------------------- */
+
+@media (max-width: 320px){
+ #head-works-icon{
+  top:30%;
+}
+}
 
 
 

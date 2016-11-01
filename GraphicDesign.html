@@ -22,11 +22,14 @@
 	<!-- 	<script src="js/jquery.min.js" language="javascript"></script> -->
 	<script language="javascript">
 		$(function(){
-			$('#APPCart-btn').click(function(){
+			$('#Banner-btn').click(function(){
 				$('html,body').animate({scrollTop: '0px'}, 800);
 			});
-			$('#WebDesign-btn').click(function(){
-				$('html,body').animate({scrollTop:$('#WebDesign').offset().top}, 800);
+			$('#LogoVi-btn').click(function(){
+				$('html,body').animate({scrollTop:$('#LogoVi').attr('style', 'padding-top: 140px').offset().top}, 800);
+			});
+			$('#OtherDesign-btn').click(function(){
+				$('html,body').animate({scrollTop:$('#OtherDesign').attr('style', 'padding-top: 140px').offset().top}, 800);
 			});
 		});
 	</script>
@@ -62,7 +65,7 @@
 		<!-- 滑動選單 str -->
 		<!-- >768 -->
 		<div id="roll-works">
-			<li><img src="images/menu/menuimg-26.svg"></li>
+			<li class="box-s"><img src="images/menu/menuimg-26.svg"></li>
 			<li class="a70"><a href="index.html"><img src="images/menu/menuimg-27.svg"></a></li>
 			<li class="a70"><a href="index.html#About"><img src="images/menu/menuimg-28.svg"></a></li>
 			<li class="a70"><a href="APPWebDesign.html"><img src="images/menu/menuimg-29.svg"></a></li>
@@ -79,13 +82,14 @@
 		</a>
 		<nav class="sliding-nav">
 			<ul>
-				<li><img src="images/img/main_11.svg" width="220px"></li>
+				<li><img src="images/img/main_42.svg" width="220px"></li>
 				<li><a href="APPWebDesign.html"><img src="images/img/main_12.svg" width="220px"></a></li>
 				<li><a href="GraphicDesign.html"><img src="images/img/main_13.svg" width="220px"></a></li>
 				<li><a href="Illustration.html"><img src="images/img/main_14.svg" width="220px"></a></li>
 				<li><a href="DailyUI.html"><img src="images/img/main_15.svg" width="220px"></a></li>
 				<li><a href="index.html"><img src="images/img/main_16.svg" width="220px"></a></li>
 			</ul>
+			<div class="burger-b"><img src="images/img/main_43.svg" width="220px"></div>
 		</nav>
 		<div class="fade-screen"></div>
 
@@ -96,11 +100,13 @@
 			</div>
 		</div>
 		<div id="mark">
-			<a id="APPCart-btn">APP+Cart</a>
+			<a id="Banner-btn">Banner</a>
 			<a class="line"></a>
-			<a id="WebDesign-btn">Web Design</a>
+			<a id="LogoVi-btn">Logotype / Vi Design</a>
+			<a class="line"></a>
+			<a id="OtherDesign-btn">Other Design</a>
 		</div>	
-		<nav id="follow" class="navbar navbar-inverse navbar-inverse-GDbg" data-spy="affix" data-offset-top="642">
+		<nav id="follow" class="navbar navbar-inverse navbar-inverse-GDbg" data-spy="affix" data-offset-top="622">
 			<div class="">
 				<img class="followicon" src="images/img/main_22.svg">
 			</div>
@@ -108,71 +114,62 @@
 	</header>
 
 	<div id="mainGD-bg">
-		<!-- About -->
 		<div class="content">
+			<div id="Banner" class="workstitle"><p>Banner</p></div>
+			<div class="workscontent">
+				<div id="banner1" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators appp">
+						<li data-target="#banner1" data-slide-to="0" class="active"></li>
+						<li data-target="#banner1" data-slide-to="1"></li>
+						<li data-target="#banner1" data-slide-to="2"></li>
+						<li data-target="#banner1" data-slide-to="3"></li>
+						<li data-target="#banner1" data-slide-to="4"></li>
+						<li data-target="#banner1" data-slide-to="5"></li>
+					</ol>
 
-			<div id="APPCart">
-				<div class="workstitle">
-					<p>© 2007-201</p>
-				</div>
-				<div class="workscontent">
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="images/works/GD/content/Banner/banner-01.png">
+						</div>
+						<div class="item">
+							<img src="images/works/GD/content/Banner/banner-02.png">
+						</div>
+						<div class="item">
+							<img src="images/works/GD/content/Banner/banner-03.png">
+						</div>
+						<div class="item">
+							<img src="images/works/GD/content/Banner/banner-04.png">
+						</div>
+						<div class="item">
+							<img src="images/works/GD/content/Banner/banner-05.png">
+						</div>
+						<div class="item">
+							<img src="images/works/GD/content/Banner/banner-06.png">
+						</div>
+					</div>
 				</div>
 			</div>
-			<div id="WebDesign">
-				<div class="workstitle">
-					<p>© 2007-201</p>
-				</div>
-				<div class="workscontent">
-					<p>© 2007-201</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-					<p>© 2007-2016 Pantomimeg All Rights Reserved.</p>
-				</div>
+			<div id="LogoVi" class="workstitle"><p>Logotype / Vi Design</p></div>
+			<div class="workscontent">
+				<div class="col-md-4 col-sm-4 col-xs-6"><a href="#GD1"><img src="images/works/GD/GD-ALL_1.png" width="100%"></a></div>
+				<div class="col-md-4 col-sm-4 col-xs-6"><a href="#GD2"><img src="images/works/GD/GD-ALL_2.png" width="100%"></a></div>
+				<div class="col-md-4 col-sm-4 col-xs-6"><a href="#GD3"><img src="images/works/GD/GD-ALL_3.png" width="100%"></a></div>
+				<div class="col-md-4 col-sm-4 col-xs-6"><a href="#GD4"><img src="images/works/GD/GD-ALL_4.png" width="100%"></a></div>
+				<div class="col-md-4 col-sm-4 col-xs-6"><a href="#GD5"><img src="images/works/GD/GD-ALL_5.png" width="100%"></a></div>
+				<div class="col-md-4 col-sm-4 col-xs-6"><a href="#GD6"><img src="images/works/GD/GD-ALL_6.png" width="100%"></a></div>
+				<div class="col-md-4 col-sm-4 col-xs-6"><a href="#GD7"><img src="images/works/GD/GD-ALL_7.png" width="100%"></a></div>
+				<div class="col-md-4 col-sm-4 col-xs-6"><a href="#GD8"><img src="images/works/GD/GD-ALL_8.png" width="100%"></a></div>
+				<div class="col-md-4 col-sm-4 col-xs-6"><a href="#GD9"><img src="images/works/GD/GD-ALL_9.png" width="100%"></a></div>
+			</div>
+			<div id="OtherDesign" class="workstitle"><p>Other Design</p></div>
+			<div class="workscontent">
+				<div class="col-md-4 col-sm-4 col-xs-6"><a href="#GD10"><img src="images/works/GD/GD-ALL_10.png" width="100%"></a></div>
+				<div class="col-md-4 col-sm-4 col-xs-6"><a href="#GD11"><img src="images/works/GD/GD-ALL_11.png" width="100%"></a></div>
+				<div class="col-md-4 col-sm-4 col-xs-6"><a href="#GD12"><img src="images/works/GD/GD-ALL_12.png" width="100%"></a></div>
+				<div class="col-md-4 col-sm-4 col-xs-6"><a href="#GD13"><img src="images/works/GD/GD-ALL_13.png" width="100%"></a></div>
+				<div class="col-md-4 col-sm-4 col-xs-6"><a href="#GD14"><img src="images/works/GD/GD-ALL_14.png" width="100%"></a></div>
 			</div>
 			<div id="footermenu">
 				<a href="index.html"><img src="images/img/main_33.svg"></a>
@@ -180,6 +177,76 @@
 				<a href="GraphicDesign.html"><img src="images/img/main_35.svg"></a>
 				<a href="Illustration.html"><img src="images/img/main_36.svg"></a>
 				<a href="DailyUI.html"><img src="images/img/main_37.svg"></a>
+			</div>
+			<!--window-->
+			<div class="remodal" data-remodal-id="GD10" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+				<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+				<div class="GDcontent">
+					<p class="boxtitle">水資源有限 - 海報設計</p>
+					<img src="images/works/GD/content/Other/other-01.png">
+					<div class="appbottom">
+						<div class="btps"><p>2012.04<br/>Photoshop</p></div>
+					</div>
+				</div>
+			</div>
+			<div class="remodal" data-remodal-id="GD11" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+				<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+				<div class="GDcontent">
+					<p class="boxtitle">夏日e起玩得瘋 - 活動海報</p>
+					<img src="images/works/GD/content/Other/other-02.png">
+					<div class="appbottom">
+						<div class="btps"><p>2016.06<br/>Illustrator</p></div>
+					</div>
+				</div>
+			</div>
+			<div class="remodal" data-remodal-id="GD12" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+				<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+				<div class="GDcontent">
+					<p class="boxtitle">小希臘餐廳 - 菜單設計</p>
+					<div class="AIbox3">
+						<div id="GDD12" class="carousel slide" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators appp">
+								<li data-target="#GDD12" data-slide-to="0" class="active"></li>
+								<li data-target="#GDD12" data-slide-to="1"></li>
+							</ol>
+
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner" role="listbox">
+								<div class="item active">
+									<img src="images/works/GD/content/Other/other-03.jpg">
+								</div>
+								<div class="item">
+									<img src="images/works/GD/content/Other/other-04.jpg">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="appbottom">
+						<div class="btps"><p>2015.08<br/>Illustrator</p></div>
+					</div>
+				</div>
+				<div class="remodal" data-remodal-id="GD13" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+					<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+					<div class="GDcontent">
+						<p class="boxtitle">小希臘莊園 - 廣告刊版設計</p>
+						<img src="images/works/GD/content/Other/other-05.png">
+						<div class="appbottom">
+							<div class="btps"><p>2016.04<br/>Illustrator</p></div>
+						</div>
+					</div>
+				</div>
+				<div class="remodal" data-remodal-id="GD14" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+					<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+					<div class="GDcontent">
+						<p class="boxtitle">電子票券使用說明 - 示意圖</p>
+						<img src="images/works/GD/content/Other/other-06.png">
+						<div class="appbottom">
+							<div class="btps"><p>2016.06<br/>Illustrator</p></div>
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</div>
 		<footer>
