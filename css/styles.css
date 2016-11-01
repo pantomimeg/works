@@ -836,10 +836,6 @@ footer p{
   #WebD2 .appp{
     margin-bottom: -23px;
   }
-
-
-
-
 }
 
 /* --------------------- <320 --------------------- */
@@ -847,6 +843,9 @@ footer p{
 @media (max-width: 320px){
   #Hello{
     height: 600px;
+  }
+  #Hello .content1{
+    margin-top:30%; 
   }
   /* -- workpage -- */
   #head-works-icon{
