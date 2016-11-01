@@ -603,7 +603,7 @@ footer p{
  .Daycontent img, .AIcontent img, .GDcontent img{
    width: 100%;
  }
- .ai60100 img{
+ .ai6080100 img{
   width: 60%;
 }
 #footermenu{
@@ -669,6 +669,9 @@ footer p{
 .img80100{
   width: 80%;
 }
+.ai6080100 img{
+  width: 80%;
+}
 #roll{
   display: none;
 }
@@ -691,9 +694,7 @@ footer p{
 #abouteg{
   margin: 100px auto;
 }
-.ai6080100 img{
-  width: 80%;
-}
+
 }
 
 /* --------------------- <478 --------------------- */
