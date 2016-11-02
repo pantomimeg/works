@@ -486,7 +486,7 @@ footer p{
     width: 90%;
   }
   .AIbox4{
-    padding: 50px 40px 30px 40px;
+    padding: 50px 40px 60px 40px;
   }
   .boxtitle2{
     font-size: 18px;
@@ -606,6 +606,14 @@ footer p{
  .ai6080100 img{
   width: 60%;
 }
+.ai6080100 > .item > img,
+.ai6080100 > .item > a > img {
+  width: 60%;
+}
+.img80100 > .item > img,
+.img80100 > .item > a > img {
+  width: 80%;
+}
 #footermenu{
  clear: both;;
  width: 100%;
@@ -707,6 +715,10 @@ footer p{
     width: 80%
   }
   .ai6080100 img{
+    width: 100%;
+  }
+  .ai6080100 > .item > img,
+  .ai6080100 > .item > a > img {
     width: 100%;
   }
   #Hello{
