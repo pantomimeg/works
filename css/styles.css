@@ -3,7 +3,7 @@
 body{
 	background: #C06926;
 	background-size: contain;
-	font-family: "Microsoft JhengHei", verdana;
+	font-family: "Microsoft JhengHei", "verdana";
 	font-size: 14px;
 }
 #main{
@@ -378,8 +378,7 @@ footer p{
  #mark a{
    color: #4A2E2B;
    font-size: 14px;
-   letter-spacing: 0.05em;
-   opacity: .8;
+   letter-spacing: 0.03em;
  }
  #mark a:hover{
    opacity: .6;
@@ -464,6 +463,12 @@ footer p{
   top: 47%;
   right: 10%;
 } 
+.carousel-control.left:hover{
+  background-image: -webkit-linear-gradient(right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.2) 250%);
+}
+.carousel-control.right:hover{
+  background-image: -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.2) 250%);
+}
 .carousel-control:hover .banner-left,
 .carousel-control:hover .banner-right{
   display: block;
