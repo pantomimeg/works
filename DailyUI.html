@@ -32,6 +32,9 @@
 			$('#61-100-btn').click(function(){
 				$('html,body').animate({scrollTop:$('#Day61-100').attr('style', 'padding-top: 170px').offset().top}, 800);
 			});
+			$('#start-btn').click(function(){
+				$('html,body').animate({scrollTop:$('#start').offset().top}, 600);
+			});
 		});
 	</script>
 	<style>
@@ -99,7 +102,7 @@
 			<div id="head-works-icon">
 				<img class="img19080" src="images/img/main_20.svg">
 				<div class="arrow">
-					<img src="http://www.tuxandgownevents.com/wp-content/uploads/2015/02/arrow-down.png">
+					<a id="start-btn"><img src="images/img/png/main_53.png"></a>
 				</div>
 			</div>
 		</div>
@@ -111,14 +114,14 @@
 			<a id="61-100-btn">Day61-100</a>
 		</div>	
 		<nav id="follow" class="navbar navbar-inverse navbar-inverse-DUbg" data-spy="affix" data-offset-top="622">
-			<div class="">
+			<div>
 				<img class="followicon" src="images/img/main_24.svg">
 			</div>
 		</nav>
 	</header>
 
 	<div id="mainDU-bg">
-		<div class="content">
+		<div id="start" class="content">
 			<div id="Day1-30" class="workstitle"><p>Day1-30</p></div>
 			<div class="workscontent">
 				<div class="worksname col-md-4 col-sm-4 col-xs-6"><a href="#Day1"><img src="images/works/DU/DAILY-UI-001-01.jpg" width="100%"></a></div>

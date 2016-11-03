@@ -338,7 +338,7 @@ footer p{
   	background-size: cover;
   }
   #headworks-AIbg{
-  	background-image:url(../images/img/png/main_43_30.png);
+  	background-image:url(../images/img/png/main_30.png);
   	background-color:#EBB024;
   	background-size: cover;
   }
@@ -440,6 +440,34 @@ footer p{
   padding-top: 60px;
   clear: both;
 }
+/* -- banner -- */
+.carousel-control.right, .carousel-control.left{
+  background-image:none;
+}
+.carousel-control .banner-left,
+.carousel-control .banner-right{
+  display: none;
+}
+.carousel-control .banner-left img{
+  width: 30%;
+  margin-top: 85%;
+  margin-right: 45%;
+  
+}
+.carousel-control .banner-right img{
+  width: 30%;
+  margin-top: 85%;
+  margin-left: 45%;
+
+} 
+.carousel-control:hover .banner-left,
+.carousel-control:hover .banner-right{
+  display: block;
+}
+.carousel-control{
+  width: 20%;
+}
+/* -- bannerend -- */
 .workstitle{
   clear: both;
   margin:5px 0 20px 0;
@@ -825,16 +853,15 @@ footer p{
     margin: 18px 0 13px 0;
   }
   /* -- workpage -- */
-
   #headworks-ADbg{
-    background-image: url(../images/img/png/main_43_3.png);
+    background-image: url(../images/img/png/main_3.png);
     background-color: #208467;
     background-repeat: no-repeat;
     background-size: cover;
     height: 680px;
   }
   #headworks-GDbg{
-    background-image: url(../images/img/png/main_43_4.png);
+    background-image: url(../images/img/png/main_4.png);
     background-color: #D03C3C;
     background-repeat: no-repeat;
     background-size: cover;
@@ -842,14 +869,14 @@ footer p{
 
   }
   #headworks-AIbg{
-    background-image: url(../images/img/png/main_43_5.png);
+    background-image: url(../images/img/png/main_5.png);
     background-color: #EBB024;
     background-repeat: no-repeat;
     background-size: cover;
     height: 680px;
   }
   #headworks-DUbg{
-    background-image: url(../images/img/png/main_43_6.png);
+    background-image: url(../images/img/png/main_6.png);
     background-color: #4A2E2B;
     background-repeat: no-repeat;
     background-size: cover;
@@ -872,7 +899,7 @@ footer p{
     margin: 0 auto;
     display: block;
     top: 80px;
-    width:50px;
+    width:40px;
     z-index: 10;
     -webkit-animation: arrow 1s both infinite;
     animation: arrow 1s both infinite;
@@ -907,19 +934,19 @@ footer p{
     display: none;
   }
   .navbar-inverse-ADbg{
-    background: url(../images/img/png/main_43_7.png);
+    background: url(../images/img/png/main_7.png);
     background-size: 100%;
   }
   .navbar-inverse-GDbg{
-    background: url(../images/img/png/main_43_8.png);
+    background: url(../images/img/png/main_8.png);
     background-size: 100%;
   }
   .navbar-inverse-AIbg{
-    background: url(../images/img/png/main_43_9.png);
+    background: url(../images/img/png/main_9.png);
     background-size: 100%;
   }
   .navbar-inverse-DUbg{
-    background: url(../images/img/png/main_43_10.png);
+    background: url(../images/img/png/main_10.png);
     background-size: 100%;
   }
   .navbar-inverse {
@@ -937,7 +964,7 @@ footer p{
     margin: 4px;
   }
   .content{
-    padding:20px;
+    padding:55px 20px 20px 20px;
     margin-bottom: 20px;
     width: 90%;
     box-shadow: 0px 0px 8px rgba(0,0,0, .2);

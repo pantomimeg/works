@@ -29,6 +29,9 @@
 			$('#WebDesign-btn').click(function(){
 				$('html,body').animate({scrollTop:$('#WebDesign').attr('style', 'padding-top: 170px').offset().top}, 600);
 			});
+			$('#start-btn').click(function(){
+				$('html,body').animate({scrollTop:$('#start').offset().top}, 600);
+			});
 		});
 	</script>
 	<style>
@@ -96,7 +99,7 @@
 			<div id="head-works-icon">
 				<img class="img19080" src="images/img/main_17.svg">
 				<div class="arrow">
-					<img src="http://www.tuxandgownevents.com/wp-content/uploads/2015/02/arrow-down.png">
+					<a id="start-btn"><img src="images/img/png/main_53.png"></a>
 				</div>
 			</div>
 		</div>
@@ -106,14 +109,14 @@
 			<a id="WebDesign-btn">Web Design</a>
 		</div>	
 		<nav id="follow" class="navbar navbar-inverse navbar-inverse-ADbg" data-spy="affix" data-offset-top="622">
-			<div class="">
+			<div>
 				<img class="followicon" src="images/img/main_21.svg">
 			</div>
 		</nav>
 	</header>
 
 	<div id="mainAD-bg">
-		<div class="content">
+		<div id="start" class="content">
 			<div id="APPCart" class="workstitle"><p>APP UI / Cart</p></div>
 			<div class="workscontent">
 				<div class="worksname col-md-4 col-sm-4 col-xs-6"><a href="#AD1"><img src="images/works/AD/AD-ALL_1.png" width="100%"></a></div>

@@ -32,6 +32,9 @@
 			$('#OtherDesign-btn').click(function(){
 				$('html,body').animate({scrollTop:$('#OtherDesign').attr('style', 'padding-top: 140px').offset().top}, 800);
 			});
+			$('#start-btn').click(function(){
+				$('html,body').animate({scrollTop:$('#start').offset().top}, 600);
+			});
 		});
 	</script>
 	<style>
@@ -99,7 +102,7 @@
 			<div id="head-works-icon">
 				<img class="img19080" src="images/img/main_18.svg">
 				<div class="arrow">
-					<img src="http://www.tuxandgownevents.com/wp-content/uploads/2015/02/arrow-down.png">
+					<a id="start-btn"><img src="images/img/png/main_53.png"></a>
 				</div>
 			</div>
 		</div>
@@ -111,14 +114,14 @@
 			<a id="OtherDesign-btn">Other Design</a>
 		</div>	
 		<nav id="follow" class="navbar navbar-inverse navbar-inverse-GDbg" data-spy="affix" data-offset-top="622">
-			<div class="">
+			<div>
 				<img class="followicon" src="images/img/main_22.svg">
 			</div>
 		</nav>
 	</header>
 
 	<div id="mainGD-bg">
-		<div class="content">
+		<div id="start" class="content">
 			<div id="Banner" class="workstitle"><p>Banner</p></div>
 			<div class="workscontent">
 				<div id="banner1" class="carousel slide" data-ride="carousel">
@@ -153,6 +156,14 @@
 							<img src="images/works/GD-content/Banner/banner-06.png">
 						</div>
 					</div>
+					<!-- Left and right controls -->
+					<a class="left carousel-control" href="#banner1" role="button" data-slide="prev">
+						<div class="banner-left"><img src="images/img/png/main_53.png"></div>
+					</a>
+					<a class="right carousel-control" href="#banner1" role="button" data-slide="next">
+						<div class="banner-right"><img src="images/img/png/main_53.png"></div>
+					</a>
+
 				</div>
 			</div>
 			<div id="LogoVi" class="workstitle"><p>Logotype / Vi Design</p></div>
@@ -305,18 +316,18 @@
 					<div class="btps"><p>2015.05<br/>Coreldraw</p></div>
 				</div>
 			</div>
-<div class="remodal" data-remodal-id="GD7" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
-					<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-					<div class="GDcontent">
-						<p class="boxtitle">What is JPEG?</p>
-						<p class="boxtext">2011年EG的插畫標題</p>
-						<img src="images/works/GD-content/LOGOVI/LOGOVI_12.png">
-						<div class="appbottom">
-							<div class="btps"><p>2011.08<br/>Coreldraw</p></div>
-						</div>
+			<div class="remodal" data-remodal-id="GD7" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+				<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+				<div class="GDcontent">
+					<p class="boxtitle">What is JPEG?</p>
+					<p class="boxtext">2011年EG的插畫標題</p>
+					<img src="images/works/GD-content/LOGOVI/LOGOVI_12.png">
+					<div class="appbottom">
+						<div class="btps"><p>2011.08<br/>Coreldraw</p></div>
 					</div>
 				</div>
-<div class="remodal" data-remodal-id="GD8" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+			</div>
+			<div class="remodal" data-remodal-id="GD8" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
 				<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
 				<p class="boxtitle">城街‧藏</p>
 				<p class="boxtext">老街活動VI設計</p>
@@ -359,7 +370,7 @@
 					<div class="btps"><p>2012.06<br/>Illustrator</p></div>
 				</div>
 			</div>
-<div class="remodal" data-remodal-id="GD9" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+			<div class="remodal" data-remodal-id="GD9" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
 				<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
 				<div class="GDcontent">
 					<p class="boxtitle">衍藏</p>
