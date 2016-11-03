@@ -13,13 +13,23 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<!-- 最新編譯和最佳化的 JavaScript -->
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/modernizr.js"></script>
 
-	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	<!-- banner -->
+	<link rel="stylesheet" href="css/banner/owl.carousel.css">
+	<link rel="stylesheet" href="css/banner/owl.theme.css">
+	<link rel="stylesheet" href="css/banner/owl.transitions.css">
+	<link href="css/banner/prettify.css" rel="stylesheet">
+	<script src="js/banner/prettify.js"></script>
+	<script src="js/banner/application.js"></script>
+	<script src="js/banner/owl.carousel.js"></script>
 
 	<!-- window -->
 	<link rel="stylesheet" href="css/window/remodal.css">
 	<link rel="stylesheet" href="css/window/remodal-default-theme.css">
+	<script src="js/modernizr.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+
 	<!-- 	<script src="js/jquery.min.js" language="javascript"></script> -->
 	<script language="javascript">
 		$(function(){
@@ -121,355 +131,370 @@
 	</header>
 
 	<div id="mainGD-bg">
-		<div id="start" class="content">
+		<div id="start" class="content slider">
 			<div id="Banner" class="workstitle"><p>Banner</p></div>
 			<div class="workscontent">
-				<div id="banner1" class="carousel slide" data-ride="carousel">
-					<!-- Indicators -->
-					<ol class="carousel-indicators appp">
-						<li data-target="#banner1" data-slide-to="0" class="active"></li>
-						<li data-target="#banner1" data-slide-to="1"></li>
-						<li data-target="#banner1" data-slide-to="2"></li>
-						<li data-target="#banner1" data-slide-to="3"></li>
-						<li data-target="#banner1" data-slide-to="4"></li>
-						<li data-target="#banner1" data-slide-to="5"></li>
-					</ol>
-
-					<!-- Wrapper for slides -->
-					<div class="carousel-inner" role="listbox">
-						<div class="item active">
-							<img src="images/works/GD-content/Banner/banner-01.png">
-						</div>
-						<div class="item">
-							<img src="images/works/GD-content/Banner/banner-02.png">
-						</div>
-						<div class="item">
-							<img src="images/works/GD-content/Banner/banner-03.png">
-						</div>
-						<div class="item">
-							<img src="images/works/GD-content/Banner/banner-04.png">
-						</div>
-						<div class="item">
-							<img src="images/works/GD-content/Banner/banner-05.png">
-						</div>
-						<div class="item">
-							<img src="images/works/GD-content/Banner/banner-06.png">
-						</div>
-					</div>
-					<!-- Left and right controls -->
-					<a class="left carousel-control" href="#banner1" role="button" data-slide="prev">
-						<div class="banner-left"><img src="images/img/png/main_54.png"></div>
-					</a>
-					<a class="right carousel-control" href="#banner1" role="button" data-slide="next">
-						<div class="banner-right"><img src="images/img/png/main_55.png"></div>
-					</a>
+				<div id="banner1" class="owl-carousel owl-theme">
+					<div class="item"><img src="images/works/GD-content/Banner/banner-01.png"></div>
+					<div class="item"><img src="images/works/GD-content/Banner/banner-02.png"></div>
+					<div class="item"><img src="images/works/GD-content/Banner/banner-03.png"></div>
+					<div class="item"><img src="images/works/GD-content/Banner/banner-04.png"></div>
+					<div class="item"><img src="images/works/GD-content/Banner/banner-05.png"></div>
+					<div class="item"><img src="images/works/GD-content/Banner/banner-06.png"></div>
 				</div>
-			</div>
-			<div id="LogoVi" class="workstitle"><p>Logotype / Vi Design</p></div>
-			<div class="workscontent">
-				<div class="worksname col-md-4 col-sm-4 col-xs-6"><a href="#GD1"><img src="images/works/GD/GD-ALL_1.png" width="100%"></a></div>
-				<div class="worksname col-md-4 col-sm-4 col-xs-6"><a href="#GD2"><img src="images/works/GD/GD-ALL_2.png" width="100%"></a></div>
-				<div class="worksname col-md-4 col-sm-4 col-xs-6"><a href="#GD3"><img src="images/works/GD/GD-ALL_3.png" width="100%"></a></div>
-				<div class="worksname col-md-4 col-sm-4 col-xs-6"><a href="#GD4"><img src="images/works/GD/GD-ALL_4.png" width="100%"></a></div>
-				<div class="worksname col-md-4 col-sm-4 col-xs-6"><a href="#GD5"><img src="images/works/GD/GD-ALL_5.png" width="100%"></a></div>
-				<!-- <div class="col-md-4 col-sm-4 col-xs-6"><a href="#GD6"><img src="images/works/GD/GD-ALL_6.png" width="100%"></a></div> -->
-				<div class="worksname col-md-4 col-sm-4 col-xs-6"><a href="#GD7"><img src="images/works/GD/GD-ALL_7.png" width="100%"></a></div>
-				<div class="worksname col-md-4 col-sm-4 col-xs-6"><a href="#GD8"><img src="images/works/GD/GD-ALL_8.png" width="100%"></a></div>
-				<div class="worksname col-md-4 col-sm-4 col-xs-6"><a href="#GD9"><img src="images/works/GD/GD-ALL_9.png" width="100%"></a></div>
-			</div>
-			<div id="OtherDesign" class="workstitle"><p>Other Design</p></div>
-			<div class="workscontent">
-				<div class="worksname col-md-4 col-sm-4 col-xs-6"><a href="#GD10"><img src="images/works/GD/GD-ALL_10.png" width="100%"></a></div>
-				<div class="worksname col-md-4 col-sm-4 col-xs-6"><a href="#GD11"><img src="images/works/GD/GD-ALL_11.png" width="100%"></a></div>
-				<div class="worksname col-md-4 col-sm-4 col-xs-6"><a href="#GD12"><img src="images/works/GD/GD-ALL_12.png" width="100%"></a></div>
-				<div class="worksname col-md-4 col-sm-4 col-xs-6"><a href="#GD13"><img src="images/works/GD/GD-ALL_13.png" width="100%"></a></div>
-				<div class="worksname col-md-4 col-sm-4 col-xs-6"><a href="#GD14"><img src="images/works/GD/GD-ALL_14.png" width="100%"></a></div>
-			</div>
-			<div id="footermenu">
-				<a href="index.html"><img src="images/img/main_33.svg"></a>
-				<a href="WebAPPDesign.html"><img src="images/img/main_34.svg"></a>
-				<a href="GraphicDesign.html"><img src="images/img/main_35.svg"></a>
-				<a href="Illustration.html"><img src="images/img/main_36.svg"></a>
-				<a href="DailyUI.html"><img src="images/img/main_37.svg"></a>
-			</div>
-			<!--window-->
-			<div class="remodal" data-remodal-id="GD1" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
-				<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-				<div class="GDcontent">
-					<img src="images/works/GD-content/LOGOVI/LOGOVI_1.png">
-					<div class="AIbox col-md-6 col-sm-6 col-xs-12">
-						<img src="images/works/GD-content/LOGOVI/LOGOVI_2.png">
-					</div>
 
-					<div class="AIbox2 col-md-6 col-sm-6 col-xs-12">
-						<p class="boxtitle2">RE:GLASS (RE：玻璃)</p>
-						<div class="boxtext2">
-							<p>歌頌廢棄資源重生，將以往煩悶無聊的回收印象，轉化成正向有趣的生活行為。使用自然生態元素與環境作聯結，慶祝廢棄玻璃以大地生命之姿重生，傳遞愛護地球的循環使命感！</p>
-							<div class="appbottom">
-								<div class="btps"><p>2013.08-2014.5<br/>Illustrator,Coreldraw</p></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="remodal" data-remodal-id="GD2" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
-				<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-				<p class="boxtitle">揪好康吃喝玩樂</p>
-				<p class="boxtext">活動貼紙設計</p>
-				<div class="AIbox3">
-					<div id="GDD2" class="carousel slide" data-ride="carousel">
-						<!-- Indicators -->
+
+
+
+
+
+
+						<!-- <div id="banner2" class="carousel slide" data-ride="carousel">
+
 						<ol class="carousel-indicators appp">
-							<li data-target="#GDD2" data-slide-to="0" class="active"></li>
-							<li data-target="#GDD2" data-slide-to="1"></li>
-							<li data-target="#GDD2" data-slide-to="2"></li>
+							<li data-target="#banner1" data-slide-to="0" class="active"></li>
+							<li data-target="#banner1" data-slide-to="1"></li>
+							<li data-target="#banner1" data-slide-to="2"></li>
+							<li data-target="#banner1" data-slide-to="3"></li>
+							<li data-target="#banner1" data-slide-to="4"></li>
+							<li data-target="#banner1" data-slide-to="5"></li>
 						</ol>
 
-						<!-- Wrapper for slides -->
-						<div class="carousel-inner " role="listbox">
-							<div class="item active">
-								<img src="images/works/GD-content/LOGOVI/LOGOVI_3.png">
-							</div>
-							<div class="item">
-								<img src="images/works/GD-content/LOGOVI/LOGOVI_4.png">
-							</div>
-							<div class="item">
-								<img src="images/works/GD-content/LOGOVI/LOGOVI_5.png">
-							</div>
-						</div>
-						<!-- Left and right controls -->
-						<a class="left carousel-control" href="#GDD2" role="button" data-slide="prev">
-							<div class="banner-left"><img src="images/img/png/main_54.png"></div>
-						</a>
-						<a class="right carousel-control" href="#GDD2" role="button" data-slide="next">
-							<div class="banner-right"><img src="images/img/png/main_55.png"></div>
-						</a>
-					</div>
-				</div>
-				<div class="appbottom">
-					<div class="btps"><p>2016.03<br/>Illustrator</p></div>
-				</div>
-			</div>
-			<div class="remodal" data-remodal-id="GD3" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
-				<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-				<div class="GDcontent ai6080100">
-					<p class="boxtitle">順香茶行</p>
-					<p class="boxtext">品牌標誌設計</p>
-					<img src="images/works/GD-content/LOGOVI/LOGOVI_6.png">
-					<div class="appbottom">
-						<div class="btps"><p>2016.04<br/>Illustrator</p></div>
-					</div>
-				</div>
-			</div>
-			<div class="remodal" data-remodal-id="GD4" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
-				<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-				<div class="AIbox col-md-6 col-sm-6 col-xs-12">
-					<div id="GDD4" class="carousel slide" data-ride="carousel">
-						<!-- Indicators -->
-						<ol class="carousel-indicators appp">
-							<li data-target="#GDD4" data-slide-to="0" class="active"></li>
-							<li data-target="#GDD4" data-slide-to="1"></li>
-							<li data-target="#GDD4" data-slide-to="2"></li>
-						</ol>
-						<!-- Wrapper for slides -->
+
 						<div class="carousel-inner" role="listbox">
 							<div class="item active">
-								<img src="images/works/GD-content/LOGOVI/LOGOVI_7.png">
+								<img src="images/works/GD-content/Banner/banner-01.png">
 							</div>
 							<div class="item">
-								<img src="images/works/GD-content/LOGOVI/LOGOVI_8.png">
+								<img src="images/works/GD-content/Banner/banner-02.png">
 							</div>
 							<div class="item">
-								<img src="images/works/GD-content/LOGOVI/LOGOVI_9.png">
+								<img src="images/works/GD-content/Banner/banner-03.png">
+							</div>
+							<div class="item">
+								<img src="images/works/GD-content/Banner/banner-04.png">
+							</div>
+							<div class="item">
+								<img src="images/works/GD-content/Banner/banner-05.png">
+							</div>
+							<div class="item">
+								<img src="images/works/GD-content/Banner/banner-06.png">
 							</div>
 						</div>
-						<!-- Left and right controls -->
-						<a class="left carousel-control" href="#GDD4" role="button" data-slide="prev">
+
+						<a class="left carousel-control" href="#banner1" role="button" data-slide="prev">
 							<div class="banner-left"><img src="images/img/png/main_54.png"></div>
 						</a>
-						<a class="right carousel-control" href="#GDD4" role="button" data-slide="next">
+						<a class="right carousel-control" href="#banner1" role="button" data-slide="next">
 							<div class="banner-right"><img src="images/img/png/main_55.png"></div>
 						</a>
 					</div>
+				</div> -->
+				<div id="LogoVi" class="workstitle"><p>Logotype / Vi Design</p></div>
+				<div class="workscontent">
+					<div class="worksname col-md-4 col-sm-4 col-xs-6"><a href="#GD1"><img src="images/works/GD/GD-ALL_1.png" width="100%"></a></div>
+					<div class="worksname col-md-4 col-sm-4 col-xs-6"><a href="#GD2"><img src="images/works/GD/GD-ALL_2.png" width="100%"></a></div>
+					<div class="worksname col-md-4 col-sm-4 col-xs-6"><a href="#GD3"><img src="images/works/GD/GD-ALL_3.png" width="100%"></a></div>
+					<div class="worksname col-md-4 col-sm-4 col-xs-6"><a href="#GD4"><img src="images/works/GD/GD-ALL_4.png" width="100%"></a></div>
+					<div class="worksname col-md-4 col-sm-4 col-xs-6"><a href="#GD5"><img src="images/works/GD/GD-ALL_5.png" width="100%"></a></div>
+					<!-- <div class="col-md-4 col-sm-4 col-xs-6"><a href="#GD6"><img src="images/works/GD/GD-ALL_6.png" width="100%"></a></div> -->
+					<div class="worksname col-md-4 col-sm-4 col-xs-6"><a href="#GD7"><img src="images/works/GD/GD-ALL_7.png" width="100%"></a></div>
+					<div class="worksname col-md-4 col-sm-4 col-xs-6"><a href="#GD8"><img src="images/works/GD/GD-ALL_8.png" width="100%"></a></div>
+					<div class="worksname col-md-4 col-sm-4 col-xs-6"><a href="#GD9"><img src="images/works/GD/GD-ALL_9.png" width="100%"></a></div>
 				</div>
-				<div class="AIbox4 col-md-6 col-sm-6 col-xs-12">
-					<p class="boxtitle2">錫摩工作室</p>
-					<div class="boxtext2">
-						<p>錫是取自金銀銅鐵錫中的錫字，「錫」通常是拿來焊接電子機板使用，容易取得價格實惠。「摩」則是取用摩天輪、摩天大樓的摩字，意指高大、高觸天際，結合兩字的意涵，錫摩這品牌正式成立，並以「最小成本創造最高的價值」為核心理念。<br/>以古早童玩太空泡泡的概念發想，吹泡泡的意象，象徵「錫摩」為創造空間的生產者，用輕鬆趣味且專業的態度，為每一個客戶打造專屬的小宇宙。</p>
-						<div class="appbottom">
-							<div class="btps"><p>2016.10<br/>Illustrator</p></div>
+				<div id="OtherDesign" class="workstitle"><p>Other Design</p></div>
+				<div class="workscontent">
+					<div class="worksname col-md-4 col-sm-4 col-xs-6"><a href="#GD10"><img src="images/works/GD/GD-ALL_10.png" width="100%"></a></div>
+					<div class="worksname col-md-4 col-sm-4 col-xs-6"><a href="#GD11"><img src="images/works/GD/GD-ALL_11.png" width="100%"></a></div>
+					<div class="worksname col-md-4 col-sm-4 col-xs-6"><a href="#GD12"><img src="images/works/GD/GD-ALL_12.png" width="100%"></a></div>
+					<div class="worksname col-md-4 col-sm-4 col-xs-6"><a href="#GD13"><img src="images/works/GD/GD-ALL_13.png" width="100%"></a></div>
+					<div class="worksname col-md-4 col-sm-4 col-xs-6"><a href="#GD14"><img src="images/works/GD/GD-ALL_14.png" width="100%"></a></div>
+				</div>
+				<div id="footermenu">
+					<a href="index.html"><img src="images/img/main_33.svg"></a>
+					<a href="WebAPPDesign.html"><img src="images/img/main_34.svg"></a>
+					<a href="GraphicDesign.html"><img src="images/img/main_35.svg"></a>
+					<a href="Illustration.html"><img src="images/img/main_36.svg"></a>
+					<a href="DailyUI.html"><img src="images/img/main_37.svg"></a>
+				</div>
+				<!--window-->
+				<div class="remodal" data-remodal-id="GD1" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+					<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+					<div class="GDcontent">
+						<img src="images/works/GD-content/LOGOVI/LOGOVI_1.png">
+						<div class="AIbox col-md-6 col-sm-6 col-xs-12">
+							<img src="images/works/GD-content/LOGOVI/LOGOVI_2.png">
+						</div>
+
+						<div class="AIbox2 col-md-6 col-sm-6 col-xs-12">
+							<p class="boxtitle2">RE:GLASS (RE：玻璃)</p>
+							<div class="boxtext2">
+								<p>歌頌廢棄資源重生，將以往煩悶無聊的回收印象，轉化成正向有趣的生活行為。使用自然生態元素與環境作聯結，慶祝廢棄玻璃以大地生命之姿重生，傳遞愛護地球的循環使命感！</p>
+								<div class="appbottom">
+									<div class="btps"><p>2013.08-2014.5<br/>Illustrator,Coreldraw</p></div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="remodal" data-remodal-id="GD5" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
-				<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-				<p class="boxtitle">屁比 Pibi</p>
-				<p class="boxtext">為表姐的愛寵形象設計</p>
-				<div class="AIbox3">
-					<div id="GDD5" class="carousel slide" data-ride="carousel">
-						<!-- Indicators -->
-						<ol class="carousel-indicators appp">
-							<li data-target="#GDD5" data-slide-to="0" class="active"></li>
-							<li data-target="#GDD5" data-slide-to="1"></li>
-						</ol>
-
-						<!-- Wrapper for slides -->
-						<div class="carousel-inner ai6080100" role="listbox">
-							<div class="item active">
-								<img src="images/works/GD-content/LOGOVI/LOGOVI_10.png">
-							</div>
-							<div class="item">
-								<img src="images/works/GD-content/LOGOVI/LOGOVI_11.png">
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="appbottom">
-					<div class="btps"><p>2015.05<br/>Coreldraw</p></div>
-				</div>
-			</div>
-			<div class="remodal" data-remodal-id="GD7" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
-				<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-				<div class="GDcontent">
-					<p class="boxtitle">What is JPEG?</p>
-					<p class="boxtext">2011年EG的插畫標題</p>
-					<img src="images/works/GD-content/LOGOVI/LOGOVI_12.png">
-					<div class="appbottom">
-						<div class="btps"><p>2011.08<br/>Coreldraw</p></div>
-					</div>
-				</div>
-			</div>
-			<div class="remodal" data-remodal-id="GD8" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
-				<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-				<p class="boxtitle">城街‧藏</p>
-				<p class="boxtext">老街活動VI設計</p>
-				<div class="AIbox3">
-					<div id="GDD8" class="carousel slide" data-ride="carousel">
-						<!-- Indicators -->
-						<ol class="carousel-indicators appp">
-							<li data-target="#GDD8" data-slide-to="0" class="active"></li>
-							<li data-target="#GDD8" data-slide-to="1"></li>
-							<li data-target="#GDD8" data-slide-to="2"></li>
-							<li data-target="#GDD8" data-slide-to="3"></li>
-							<li data-target="#GDD8" data-slide-to="4"></li>
-							<li data-target="#GDD8" data-slide-to="5"></li>
-						</ol>
-
-						<!-- Wrapper for slides -->
-						<div class="carousel-inner" role="listbox">
-							<div class="item active">
-								<img src="images/works/GD-content/LOGOVI/LOGOVI_13.png">
-							</div>
-							<div class="item">
-								<img src="images/works/GD-content/LOGOVI/LOGOVI_14.png">
-							</div>
-							<div class="item">
-								<img src="images/works/GD-content/LOGOVI/LOGOVI_15.png">
-							</div>
-							<div class="item">
-								<img src="images/works/GD-content/LOGOVI/LOGOVI_16.png">
-							</div>
-							<div class="item">
-								<img src="images/works/GD-content/LOGOVI/LOGOVI_17.png">
-							</div>
-							<div class="item">
-								<img src="images/works/GD-content/LOGOVI/LOGOVI_18.png">
-							</div>
-						</div>
-						<!-- Left and right controls -->
-						<a class="left carousel-control" href="#GDD8" role="button" data-slide="prev">
-						<div class="banner-left"><img src="images/img/png/main_54.png"></div>
-						</a>
-						<a class="right carousel-control" href="#GDD8" role="button" data-slide="next">
-							<div class="banner-right"><img src="images/img/png/main_55.png"></div>
-						</a>
-					</div>
-				</div>
-				<div class="appbottom">
-					<div class="btps"><p>2012.06<br/>Illustrator</p></div>
-				</div>
-			</div>
-			<div class="remodal" data-remodal-id="GD9" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
-				<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-				<div class="GDcontent">
-					<p class="boxtitle">衍藏</p>
-					<p class="boxtext">竹工藝作品展出活動VI設計</p>
-					<img src="images/works/GD-content/LOGOVI/LOGOVI_19.png">
-					<div class="appbottom">
-						<div class="btps"><p>2012.10<br/>Illustrator,Coreldraw</p></div>
-					</div>
-				</div>
-			</div>
-
-			<div class="remodal" data-remodal-id="GD10" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
-				<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-				<div class="GDcontent">
-					<p class="boxtitle">水資源有限 - 海報設計</p>
-					<img src="images/works/GD-content/Other/other-01.png">
-					<div class="appbottom">
-						<div class="btps"><p>2012.04<br/>Photoshop</p></div>
-					</div>
-				</div>
-			</div>
-			<div class="remodal" data-remodal-id="GD11" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
-				<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-				<div class="GDcontent">
-					<p class="boxtitle">夏日e起玩得瘋 - 活動海報</p>
-					<img src="images/works/GD-content/Other/other-02.png">
-					<div class="appbottom">
-						<div class="btps"><p>2016.06<br/>Illustrator</p></div>
-					</div>
-				</div>
-			</div>
-			<div class="remodal" data-remodal-id="GD12" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
-				<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-				<div class="GDcontent">
-					<p class="boxtitle">小希臘餐廳 - 菜單設計</p>
+				<div class="remodal" data-remodal-id="GD2" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+					<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+					<p class="boxtitle">揪好康吃喝玩樂</p>
+					<p class="boxtext">活動貼紙設計</p>
 					<div class="AIbox3">
-						<div id="GDD12" class="carousel slide" data-ride="carousel">
+						<div id="GDD2" class="carousel slide" data-ride="carousel">
 							<!-- Indicators -->
 							<ol class="carousel-indicators appp">
-								<li data-target="#GDD12" data-slide-to="0" class="active"></li>
-								<li data-target="#GDD12" data-slide-to="1"></li>
+								<li data-target="#GDD2" data-slide-to="0" class="active"></li>
+								<li data-target="#GDD2" data-slide-to="1"></li>
+								<li data-target="#GDD2" data-slide-to="2"></li>
 							</ol>
 
 							<!-- Wrapper for slides -->
-							<div class="carousel-inner" role="listbox">
+							<div class="carousel-inner " role="listbox">
 								<div class="item active">
-									<img src="images/works/GD-content/Other/other-03.jpg">
+									<img src="images/works/GD-content/LOGOVI/LOGOVI_3.png">
 								</div>
 								<div class="item">
-									<img src="images/works/GD-content/Other/other-04.jpg">
+									<img src="images/works/GD-content/LOGOVI/LOGOVI_4.png">
+								</div>
+								<div class="item">
+									<img src="images/works/GD-content/LOGOVI/LOGOVI_5.png">
 								</div>
 							</div>
+							<!-- Left and right controls -->
+							<a class="left carousel-control" href="#GDD2" role="button" data-slide="prev">
+								<div class="banner-left"><img src="images/img/png/main_54.png"></div>
+							</a>
+							<a class="right carousel-control" href="#GDD2" role="button" data-slide="next">
+								<div class="banner-right"><img src="images/img/png/main_55.png"></div>
+							</a>
 						</div>
 					</div>
 					<div class="appbottom">
-						<div class="btps"><p>2015.08<br/>Illustrator</p></div>
+						<div class="btps"><p>2016.03<br/>Illustrator</p></div>
 					</div>
 				</div>
-				<div class="remodal" data-remodal-id="GD13" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+				<div class="remodal" data-remodal-id="GD3" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
 					<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-					<div class="GDcontent">
-						<p class="boxtitle">小希臘莊園 - 廣告刊版設計</p>
-						<img src="images/works/GD-content/Other/other-05.png">
+					<div class="GDcontent ai6080100">
+						<p class="boxtitle">順香茶行</p>
+						<p class="boxtext">品牌標誌設計</p>
+						<img src="images/works/GD-content/LOGOVI/LOGOVI_6.png">
 						<div class="appbottom">
 							<div class="btps"><p>2016.04<br/>Illustrator</p></div>
 						</div>
 					</div>
 				</div>
-				<div class="remodal" data-remodal-id="GD14" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+				<div class="remodal" data-remodal-id="GD4" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+					<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+					<div class="AIbox col-md-6 col-sm-6 col-xs-12">
+						<div id="GDD4" class="carousel slide" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators appp">
+								<li data-target="#GDD4" data-slide-to="0" class="active"></li>
+								<li data-target="#GDD4" data-slide-to="1"></li>
+								<li data-target="#GDD4" data-slide-to="2"></li>
+							</ol>
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner" role="listbox">
+								<div class="item active">
+									<img src="images/works/GD-content/LOGOVI/LOGOVI_7.png">
+								</div>
+								<div class="item">
+									<img src="images/works/GD-content/LOGOVI/LOGOVI_8.png">
+								</div>
+								<div class="item">
+									<img src="images/works/GD-content/LOGOVI/LOGOVI_9.png">
+								</div>
+							</div>
+							<!-- Left and right controls -->
+							<a class="left carousel-control" href="#GDD4" role="button" data-slide="prev">
+								<div class="banner-left"><img src="images/img/png/main_54.png"></div>
+							</a>
+							<a class="right carousel-control" href="#GDD4" role="button" data-slide="next">
+								<div class="banner-right"><img src="images/img/png/main_55.png"></div>
+							</a>
+						</div>
+					</div>
+					<div class="AIbox4 col-md-6 col-sm-6 col-xs-12">
+						<p class="boxtitle2">錫摩工作室</p>
+						<div class="boxtext2">
+							<p>錫是取自金銀銅鐵錫中的錫字，「錫」通常是拿來焊接電子機板使用，容易取得價格實惠。「摩」則是取用摩天輪、摩天大樓的摩字，意指高大、高觸天際，結合兩字的意涵，錫摩這品牌正式成立，並以「最小成本創造最高的價值」為核心理念。<br/>以古早童玩太空泡泡的概念發想，吹泡泡的意象，象徵「錫摩」為創造空間的生產者，用輕鬆趣味且專業的態度，為每一個客戶打造專屬的小宇宙。</p>
+							<div class="appbottom">
+								<div class="btps"><p>2016.10<br/>Illustrator</p></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="remodal" data-remodal-id="GD5" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+					<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+					<p class="boxtitle">屁比 Pibi</p>
+					<p class="boxtext">為表姐的愛寵形象設計</p>
+					<div class="AIbox3">
+						<div id="GDD5" class="carousel slide" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators appp">
+								<li data-target="#GDD5" data-slide-to="0" class="active"></li>
+								<li data-target="#GDD5" data-slide-to="1"></li>
+							</ol>
+
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner ai6080100" role="listbox">
+								<div class="item active">
+									<img src="images/works/GD-content/LOGOVI/LOGOVI_10.png">
+								</div>
+								<div class="item">
+									<img src="images/works/GD-content/LOGOVI/LOGOVI_11.png">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="appbottom">
+						<div class="btps"><p>2015.05<br/>Coreldraw</p></div>
+					</div>
+				</div>
+				<div class="remodal" data-remodal-id="GD7" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
 					<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
 					<div class="GDcontent">
-						<p class="boxtitle">電子票券使用說明 - 示意圖</p>
-						<img src="images/works/GD-content/Other/other-06.png">
+						<p class="boxtitle">What is JPEG?</p>
+						<p class="boxtext">2011年EG的插畫標題</p>
+						<img src="images/works/GD-content/LOGOVI/LOGOVI_12.png">
+						<div class="appbottom">
+							<div class="btps"><p>2011.08<br/>Coreldraw</p></div>
+						</div>
+					</div>
+				</div>
+				<div class="remodal" data-remodal-id="GD8" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+					<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+					<p class="boxtitle">城街‧藏</p>
+					<p class="boxtext">老街活動VI設計</p>
+					<div class="AIbox3">
+						<div id="GDD8" class="carousel slide" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators appp">
+								<li data-target="#GDD8" data-slide-to="0" class="active"></li>
+								<li data-target="#GDD8" data-slide-to="1"></li>
+								<li data-target="#GDD8" data-slide-to="2"></li>
+								<li data-target="#GDD8" data-slide-to="3"></li>
+								<li data-target="#GDD8" data-slide-to="4"></li>
+								<li data-target="#GDD8" data-slide-to="5"></li>
+							</ol>
+
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner" role="listbox">
+								<div class="item active">
+									<img src="images/works/GD-content/LOGOVI/LOGOVI_13.png">
+								</div>
+								<div class="item">
+									<img src="images/works/GD-content/LOGOVI/LOGOVI_14.png">
+								</div>
+								<div class="item">
+									<img src="images/works/GD-content/LOGOVI/LOGOVI_15.png">
+								</div>
+								<div class="item">
+									<img src="images/works/GD-content/LOGOVI/LOGOVI_16.png">
+								</div>
+								<div class="item">
+									<img src="images/works/GD-content/LOGOVI/LOGOVI_17.png">
+								</div>
+								<div class="item">
+									<img src="images/works/GD-content/LOGOVI/LOGOVI_18.png">
+								</div>
+							</div>
+							<!-- Left and right controls -->
+							<a class="left carousel-control" href="#GDD8" role="button" data-slide="prev">
+								<div class="banner-left"><img src="images/img/png/main_54.png"></div>
+							</a>
+							<a class="right carousel-control" href="#GDD8" role="button" data-slide="next">
+								<div class="banner-right"><img src="images/img/png/main_55.png"></div>
+							</a>
+						</div>
+					</div>
+					<div class="appbottom">
+						<div class="btps"><p>2012.06<br/>Illustrator</p></div>
+					</div>
+				</div>
+				<div class="remodal" data-remodal-id="GD9" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+					<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+					<div class="GDcontent">
+						<p class="boxtitle">衍藏</p>
+						<p class="boxtext">竹工藝作品展出活動VI設計</p>
+						<img src="images/works/GD-content/LOGOVI/LOGOVI_19.png">
+						<div class="appbottom">
+							<div class="btps"><p>2012.10<br/>Illustrator,Coreldraw</p></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="remodal" data-remodal-id="GD10" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+					<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+					<div class="GDcontent">
+						<p class="boxtitle">水資源有限 - 海報設計</p>
+						<img src="images/works/GD-content/Other/other-01.png">
+						<div class="appbottom">
+							<div class="btps"><p>2012.04<br/>Photoshop</p></div>
+						</div>
+					</div>
+				</div>
+				<div class="remodal" data-remodal-id="GD11" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+					<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+					<div class="GDcontent">
+						<p class="boxtitle">夏日e起玩得瘋 - 活動海報</p>
+						<img src="images/works/GD-content/Other/other-02.png">
 						<div class="appbottom">
 							<div class="btps"><p>2016.06<br/>Illustrator</p></div>
 						</div>
 					</div>
 				</div>
+				<div class="remodal" data-remodal-id="GD12" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+					<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+					<div class="GDcontent">
+						<p class="boxtitle">小希臘餐廳 - 菜單設計</p>
+						<div class="AIbox3">
+							<div id="GDD12" class="carousel slide" data-ride="carousel">
+								<!-- Indicators -->
+								<ol class="carousel-indicators appp">
+									<li data-target="#GDD12" data-slide-to="0" class="active"></li>
+									<li data-target="#GDD12" data-slide-to="1"></li>
+								</ol>
 
+								<!-- Wrapper for slides -->
+								<div class="carousel-inner" role="listbox">
+									<div class="item active">
+										<img src="images/works/GD-content/Other/other-03.jpg">
+									</div>
+									<div class="item">
+										<img src="images/works/GD-content/Other/other-04.jpg">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="appbottom">
+							<div class="btps"><p>2015.08<br/>Illustrator</p></div>
+						</div>
+					</div>
+					<div class="remodal" data-remodal-id="GD13" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+						<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+						<div class="GDcontent">
+							<p class="boxtitle">小希臘莊園 - 廣告刊版設計</p>
+							<img src="images/works/GD-content/Other/other-05.png">
+							<div class="appbottom">
+								<div class="btps"><p>2016.04<br/>Illustrator</p></div>
+							</div>
+						</div>
+					</div>
+					<div class="remodal" data-remodal-id="GD14" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+						<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+						<div class="GDcontent">
+							<p class="boxtitle">電子票券使用說明 - 示意圖</p>
+							<img src="images/works/GD-content/Other/other-06.png">
+							<div class="appbottom">
+								<div class="btps"><p>2016.06<br/>Illustrator</p></div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<footer>
@@ -549,6 +574,22 @@
   $('[data-remodal-id=modal2]').remodal({
   	modifier: 'with-red-theme'
   });
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+
+		$("#banner1").owlCarousel({
+			autoPlay:2000,
+			navigation : true,
+			stopOnHover : true,
+			paginationSpeed : 1000,
+			goToFirstSpeed : 5000,
+			singleItem:true,
+			navigationText:['<img src="images/img/png/main_54.png">','<img src="images/img/png/main_55.png">']
+		});
+
+	});
 </script>
 
 </body>

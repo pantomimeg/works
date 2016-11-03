@@ -475,24 +475,57 @@ footer p{
 }
 .carousel-control{
   width: 25%;
-}
-/* -- bannerend -- */
-.workstitle{
-  clear: both;
-  margin:5px 0 20px 0;
-  padding:20px 0 0 3px;
-  color: #4A2E2B;
-  font-size: 17px;
-  font-weight: bold;
-}
-.workstitle p{
-  border-left: 5px solid #4A2E2B;
-  padding-left: 10px;
-}
-.workscontent{
- padding-bottom: 20px;
-}
-.appbox{
+  }
+  #banner1 .item img{
+    width: 100%;
+    padding: 1px;
+  }
+  .owl-theme .owl-controls .owl-buttons img{
+    width: 20px;
+  }
+  .owl-buttons{
+    position: absolute;
+    top: 4%;
+    width: 100%;
+  }
+  .owl-theme .owl-controls .owl-buttons .owl-prev{
+    position: absolute;
+    left: 0;
+    text-align: left;
+    width: 25%;
+    padding: 14% 3px;
+    display: none;
+  }
+  .owl-theme .owl-controls .owl-buttons .owl-next{
+    position: absolute;
+    right: 0;
+    text-align: right;
+    width: 25%;
+    padding: 14% 3px;
+    display: none;
+  }
+  .owl-theme:hover .owl-controls .owl-prev,
+  .owl-theme:hover .owl-controls .owl-next{
+    display: block;
+  }
+
+  /* -- bannerend -- */
+  .workstitle{
+    clear: both;
+    margin:5px 0 20px 0;
+    padding:20px 0 0 3px;
+    color: #4A2E2B;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .workstitle p{
+    border-left: 5px solid #4A2E2B;
+    padding-left: 10px;
+  }
+  .workscontent{
+   padding-bottom: 20px;
+ }
+ .appbox{
   text-align:center;
 }
 .appbox2{
